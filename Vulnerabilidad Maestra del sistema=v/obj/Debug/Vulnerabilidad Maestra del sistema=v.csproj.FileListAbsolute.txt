@@ -1,0 +1,11 @@
+c:\users\mayra\documents\visual studio 2015\Projects\Solucion\Vulnerabilidad Maestra del sistema=v\bin\Debug\Vulnerabilidad Maestra del sistema=v.exe.config
+c:\users\mayra\documents\visual studio 2015\Projects\Solucion\Vulnerabilidad Maestra del sistema=v\bin\Debug\Vulnerabilidad Maestra del sistema=v.exe
+c:\users\mayra\documents\visual studio 2015\Projects\Solucion\Vulnerabilidad Maestra del sistema=v\bin\Debug\Vulnerabilidad Maestra del sistema=v.pdb
+c:\users\mayra\documents\visual studio 2015\Projects\Solucion\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.csprojResolveAssemblyReference.cache
+c:\users\mayra\documents\visual studio 2015\Projects\Solucion\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad_Maestra_del_sistema_v.Properties.Resources.resources
+c:\users\mayra\documents\visual studio 2015\Projects\Solucion\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.csproj.GenerateResource.Cache
+c:\users\mayra\documents\visual studio 2015\Projects\Solucion\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.exe
+c:\users\mayra\documents\visual studio 2015\Projects\Solucion\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.pdb
+C:\Users\Mayra\Source\Repos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\Vulnerabilidad Maestra del sistema=v.exe.config
+C:\Users\Mayra\Source\Repos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.exe
+C:\Users\Mayra\Source\Repos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.pdb
