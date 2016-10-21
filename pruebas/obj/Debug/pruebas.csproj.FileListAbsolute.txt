@@ -1,0 +1,10 @@
+C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\bin\Debug\pruebas.exe.config
+C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\bin\Debug\pruebas.exe
+C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\bin\Debug\pruebas.pdb
+C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\bin\Debug\Flat.dll
+C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.csprojResolveAssemblyReference.cache
+C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.SimpleLogin.resources
+C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.Properties.Resources.resources
+C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.csproj.GenerateResource.Cache
+C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.exe
+C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.pdb
