@@ -8,3 +8,6 @@ C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.P
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.csproj.GenerateResource.Cache
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.exe
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.pdb
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\bin\Debug\pruebas.exe.config
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\obj\Debug\pruebas.exe
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\obj\Debug\pruebas.pdb
