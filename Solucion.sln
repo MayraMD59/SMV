@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vulnerabilidad Maestra del sistema=v", "Vulnerabilidad Maestra del sistema=v\Vulnerabilidad Maestra del sistema=v.csproj", "{52ABA702-4AD6-41B1-A1FB-5D819A7FF430}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VulnerabilidadMaestra", "Vulnerabilidad Maestra del sistema=v\VulnerabilidadMaestra.csproj", "{52ABA702-4AD6-41B1-A1FB-5D819A7FF430}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessEntities", "BusinessEntities\BusinessEntities.csproj", "{FDC7CDD6-0CD5-41CD-B4CA-F8D95F7A542A}"
 EndProject
