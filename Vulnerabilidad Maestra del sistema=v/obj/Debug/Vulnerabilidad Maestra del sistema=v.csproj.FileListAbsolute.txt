@@ -18,3 +18,12 @@ C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\Vulnerabilidad Maestra del 
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad_Maestra_del_sistema_v.Form1.resources
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad_Maestra_del_sistema_v.Properties.Resources.resources
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.csproj.GenerateResource.Cache
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\Vulnerabilidad Maestra del sistema=v.exe.config
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\Vulnerabilidad Maestra del sistema=v.exe
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\Vulnerabilidad Maestra del sistema=v.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.csprojResolveAssemblyReference.cache
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad_Maestra_del_sistema_v.Form1.resources
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad_Maestra_del_sistema_v.Properties.Resources.resources
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.csproj.GenerateResource.Cache
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.exe
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad Maestra del sistema=v.pdb

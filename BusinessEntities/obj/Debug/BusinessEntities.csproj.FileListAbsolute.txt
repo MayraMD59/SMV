@@ -3,3 +3,8 @@ C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\BusinessEntities\bin\Debug\
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\BusinessEntities\obj\Debug\BusinessEntities.dll
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\obj\Debug\BusinessEntities.pdb

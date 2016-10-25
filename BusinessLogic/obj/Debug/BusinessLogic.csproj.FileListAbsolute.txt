@@ -3,3 +3,8 @@ C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\BusinessLogic\bin\Debug\Bus
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\BusinessLogic\obj\Debug\BusinessLogic.dll
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\obj\Debug\BusinessLogic.pdb

@@ -158,6 +158,9 @@
     <EmbeddedResource Include="PruebasVentanas\ListaGrupos.resx">
       <DependentUpon>ListaGrupos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PruebasVentanas\VistaGeneral.resx">
+      <DependentUpon>VistaGeneral.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

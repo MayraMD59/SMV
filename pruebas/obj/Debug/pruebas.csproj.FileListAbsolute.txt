@@ -11,3 +11,27 @@ C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\pruebas\obj\Debug\pruebas.p
 C:\Users\MaryNest\Source\Repos\SMV\pruebas\bin\Debug\pruebas.exe.config
 C:\Users\MaryNest\Source\Repos\SMV\pruebas\obj\Debug\pruebas.exe
 C:\Users\MaryNest\Source\Repos\SMV\pruebas\obj\Debug\pruebas.pdb
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\bin\Debug\pruebas.exe
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\bin\Debug\pruebas.pdb
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\bin\Debug\Flat.dll
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\obj\Debug\pruebas.csprojResolveAssemblyReference.cache
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\obj\Debug\pruebas.SimpleLogin.resources
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\obj\Debug\pruebas.Properties.Resources.resources
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\obj\Debug\pruebas.PruebasVentanas.ListaGrupos.resources
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\obj\Debug\pruebas.csproj.GenerateResource.Cache
+C:\Users\MaryNest\Source\Repos\SMV\pruebas\obj\Debug\pruebas.PruebasVentanas.VistaGeneral.resources
+C:\Users\Mayra\Source\Repos\SMV\pruebas\bin\Debug\pruebas.exe.config
+C:\Users\Mayra\Source\Repos\SMV\pruebas\obj\Debug\pruebas.exe
+C:\Users\Mayra\Source\Repos\SMV\pruebas\obj\Debug\pruebas.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\pruebas.exe.config
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\obj\Debug\pruebas.exe
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\obj\Debug\pruebas.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\pruebas.exe
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\pruebas.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\Flat.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\obj\Debug\pruebas.csprojResolveAssemblyReference.cache
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\obj\Debug\pruebas.SimpleLogin.resources
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\obj\Debug\pruebas.Properties.Resources.resources
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\obj\Debug\pruebas.PruebasVentanas.ListaGrupos.resources
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\obj\Debug\pruebas.PruebasVentanas.VistaGeneral.resources
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\obj\Debug\pruebas.csproj.GenerateResource.Cache

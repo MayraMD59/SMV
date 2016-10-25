@@ -3,3 +3,8 @@ C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\DataAccessLayer\bin\Debug\D
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
