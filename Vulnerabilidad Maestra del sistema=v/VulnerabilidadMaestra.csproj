@@ -7,8 +7,8 @@
     <ProjectGuid>{52ABA702-4AD6-41B1-A1FB-5D819A7FF430}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vulnerabilidad_Maestra_del_sistema_v</RootNamespace>
-    <AssemblyName>Vulnerabilidad Maestra del sistema=v</AssemblyName>
+    <RootNamespace>VulnerabilidadMaestra</RootNamespace>
+    <AssemblyName>VulnerabilidadMaestra</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -137,6 +137,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

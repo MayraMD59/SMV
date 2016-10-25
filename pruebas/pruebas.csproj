@@ -57,17 +57,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PruebasVentanas\Build.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PruebasVentanas\Build.Designer.cs">
+      <DependentUpon>Build.cs</DependentUpon>
+    </Compile>
     <Compile Include="PruebasVentanas\ListaGrupos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PruebasVentanas\ListaGrupos.Designer.cs">
       <DependentUpon>ListaGrupos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PruebasVentanas\VistaGeneral.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PruebasVentanas\VistaGeneral.Designer.cs">
-      <DependentUpon>VistaGeneral.cs</DependentUpon>
     </Compile>
     <Compile Include="Themes\FlatUI\FlatAlertBox.cs">
       <SubType>Component</SubType>
@@ -155,11 +155,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="PruebasVentanas\Build.resx">
+      <DependentUpon>Build.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PruebasVentanas\ListaGrupos.resx">
       <DependentUpon>ListaGrupos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PruebasVentanas\VistaGeneral.resx">
-      <DependentUpon>VistaGeneral.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -178,6 +178,12 @@
     <None Include="Resources\User Female_48px.png" />
     <None Include="Resources\Neo_48px.png" />
     <Content Include="Themes\Flat\Flat.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vulnerabilidad Maestra del sistema=v\VulnerabilidadMaestra.csproj">
+      <Project>{52ABA702-4AD6-41B1-A1FB-5D819A7FF430}</Project>
+      <Name>VulnerabilidadMaestra</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

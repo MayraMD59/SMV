@@ -30,8 +30,8 @@
 			{
 			this.flatClose1 = new FlatUI.FlatClose();
 			this.TabControl = new iTalk.iTalk_TabControl();
-			this.tabPage2 = new System.Windows.Forms.TabPage();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
+			this.tabPage2 = new System.Windows.Forms.TabPage();
 			this.panelWindowHeader = new System.Windows.Forms.Panel();
 			this.TabControl.SuspendLayout();
 			this.panelWindowHeader.SuspendLayout();
@@ -65,16 +65,6 @@
 			this.TabControl.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
 			this.TabControl.TabIndex = 1;
 			// 
-			// tabPage2
-			// 
-			this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
-			this.tabPage2.Location = new System.Drawing.Point(139, 4);
-			this.tabPage2.Name = "tabPage2";
-			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(138, 218);
-			this.tabPage2.TabIndex = 1;
-			this.tabPage2.Text = "tabPage2";
-			// 
 			// tabPage1
 			// 
 			this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
@@ -84,6 +74,16 @@
 			this.tabPage1.Size = new System.Drawing.Size(138, 218);
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "tabPage1";
+			// 
+			// tabPage2
+			// 
+			this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
+			this.tabPage2.Location = new System.Drawing.Point(139, 4);
+			this.tabPage2.Name = "tabPage2";
+			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+			this.tabPage2.Size = new System.Drawing.Size(138, 218);
+			this.tabPage2.TabIndex = 1;
+			this.tabPage2.Text = "tabPage2";
 			// 
 			// panelWindowHeader
 			// 
@@ -95,6 +95,7 @@
 			this.panelWindowHeader.Name = "panelWindowHeader";
 			this.panelWindowHeader.Size = new System.Drawing.Size(284, 37);
 			this.panelWindowHeader.TabIndex = 0;
+			this.panelWindowHeader.Paint += new System.Windows.Forms.PaintEventHandler(this.panelWindowHeader_Paint);
 			// 
 			// SimpleLogin
 			// 

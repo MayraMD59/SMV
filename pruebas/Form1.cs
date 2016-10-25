@@ -19,6 +19,11 @@ namespace pruebas
 			this.panelWindowHeader.MouseDown += PanelWindowHeader_MouseDown;
 			this.panelWindowHeader.MouseUp += PanelWindowHeader_MouseUp;
 			this.panelWindowHeader.MouseMove += PanelWindowHeader_MouseMove;
+			this.panelWindowHeader.MouseClick += panelWindowHeader_MouseClick;
+			}
+
+		private void panelWindowHeader_MouseClick(object sender, MouseEventArgs e)
+			{
 			}
 
 		private void PanelWindowHeader_MouseMove(object sender, MouseEventArgs e)
@@ -44,6 +49,11 @@ namespace pruebas
 			this.drag = true;
 			}
 		private bool drag = false; //did we starteddragging the control ?
-		private Point startPoint = new Point(0, 0);
+		private Point startPoint = new Point(0,0);
+
+		private void panelWindowHeader_Paint(object sender, PaintEventArgs e)
+			{
+
+			}
 		}
 	}

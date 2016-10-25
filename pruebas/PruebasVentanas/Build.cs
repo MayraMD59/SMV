@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace pruebas.PruebasVentanas
-{
-	public partial class VistaGeneral : Form
 	{
-		public VistaGeneral()
+	public partial class Build : Form
 		{
+		public Build()
+			{
 			InitializeComponent();
+			}
 		}
 	}
-}

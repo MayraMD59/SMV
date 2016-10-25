@@ -1,0 +1,9 @@
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.csprojResolveAssemblyReference.cache
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\Vulnerabilidad_Maestra_del_sistema_v.Form1.resources
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.csproj.GenerateResource.Cache
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\VulnerabilidadMaestra.exe.config
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\VulnerabilidadMaestra.exe
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\VulnerabilidadMaestra.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.Properties.Resources.resources
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.exe
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.pdb
