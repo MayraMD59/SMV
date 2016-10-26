@@ -14,7 +14,6 @@ namespace pruebas.PruebasVentanas
 		{
 		public Build()
 			{
-			InitializeComponent();
 			}
 		}
 	}

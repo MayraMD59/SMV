@@ -28,21 +28,22 @@
 		/// </summary>
 		private void InitializeComponent()
 			{
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			this.panel1 = new System.Windows.Forms.Panel();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea61 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend61 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series61 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea62 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend62 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series62 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea63 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend63 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series63 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			this.panelHeader = new System.Windows.Forms.Panel();
 			this.flatMini1 = new FlatUI.FlatMini();
 			this.flatClose1 = new FlatUI.FlatClose();
 			this.titleLabel = new FlatUI.FlatLabel();
 			this.tabControl = new FlatUI.FlatTabControl();
 			this.tabLogIn = new System.Windows.Forms.TabPage();
+			this.flatLabel21 = new FlatUI.FlatLabel();
 			this.flatComboBox3 = new FlatUI.FlatComboBox();
 			this.flatLabel5 = new FlatUI.FlatLabel();
 			this.flatTextBox1 = new FlatUI.FlatTextBox();
@@ -134,7 +135,7 @@
 			this.flatButton8 = new FlatUI.FlatButton();
 			this.iTalk_Label2 = new iTalk.iTalk_Label();
 			this.iTalk_Label1 = new iTalk.iTalk_Label();
-			this.panel1.SuspendLayout();
+			this.panelHeader.SuspendLayout();
 			this.tabControl.SuspendLayout();
 			this.tabLogIn.SuspendLayout();
 			this.tabSignIn.SuspendLayout();
@@ -156,16 +157,16 @@
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// panel1
+			// panelHeader
 			// 
-			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-			this.panel1.Controls.Add(this.flatMini1);
-			this.panel1.Controls.Add(this.flatClose1);
-			this.panel1.Controls.Add(this.titleLabel);
-			this.panel1.Location = new System.Drawing.Point(0, 0);
-			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(640, 35);
-			this.panel1.TabIndex = 0;
+			this.panelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
+			this.panelHeader.Controls.Add(this.flatMini1);
+			this.panelHeader.Controls.Add(this.flatClose1);
+			this.panelHeader.Controls.Add(this.titleLabel);
+			this.panelHeader.Location = new System.Drawing.Point(0, 0);
+			this.panelHeader.Name = "panelHeader";
+			this.panelHeader.Size = new System.Drawing.Size(640, 35);
+			this.panelHeader.TabIndex = 0;
 			// 
 			// flatMini1
 			// 
@@ -229,6 +230,7 @@
 			// tabLogIn
 			// 
 			this.tabLogIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
+			this.tabLogIn.Controls.Add(this.flatLabel21);
 			this.tabLogIn.Controls.Add(this.flatComboBox3);
 			this.tabLogIn.Controls.Add(this.flatLabel5);
 			this.tabLogIn.Controls.Add(this.flatTextBox1);
@@ -242,6 +244,18 @@
 			this.tabLogIn.Size = new System.Drawing.Size(632, 439);
 			this.tabLogIn.TabIndex = 0;
 			this.tabLogIn.Text = "tabPage1";
+			// 
+			// flatLabel21
+			// 
+			this.flatLabel21.AutoSize = true;
+			this.flatLabel21.BackColor = System.Drawing.Color.Transparent;
+			this.flatLabel21.Font = new System.Drawing.Font("Segoe UI", 8F);
+			this.flatLabel21.ForeColor = System.Drawing.Color.White;
+			this.flatLabel21.Location = new System.Drawing.Point(8, 8);
+			this.flatLabel21.Name = "flatLabel21";
+			this.flatLabel21.Size = new System.Drawing.Size(63, 13);
+			this.flatLabel21.TabIndex = 21;
+			this.flatLabel21.Text = "flatLabel21";
 			// 
 			// flatComboBox3
 			// 
@@ -369,11 +383,11 @@
 			// 
 			this.flatLabel20.AutoSize = true;
 			this.flatLabel20.BackColor = System.Drawing.Color.Transparent;
-			this.flatLabel20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.flatLabel20.Font = new System.Drawing.Font("Segoe UI", 20F);
 			this.flatLabel20.ForeColor = System.Drawing.Color.White;
-			this.flatLabel20.Location = new System.Drawing.Point(20, 18);
+			this.flatLabel20.Location = new System.Drawing.Point(20, 32);
 			this.flatLabel20.Name = "flatLabel20";
-			this.flatLabel20.Size = new System.Drawing.Size(68, 21);
+			this.flatLabel20.Size = new System.Drawing.Size(115, 37);
 			this.flatLabel20.TabIndex = 43;
 			this.flatLabel20.Text = "Registro";
 			// 
@@ -661,19 +675,19 @@
 			this.chart2.BackColor = System.Drawing.Color.Transparent;
 			this.chart2.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
 			this.chart2.BorderlineColor = System.Drawing.Color.LightCoral;
-			chartArea1.Name = "ChartArea1";
-			this.chart2.ChartAreas.Add(chartArea1);
-			legend1.Name = "Legend1";
-			this.chart2.Legends.Add(legend1);
+			chartArea61.Name = "ChartArea1";
+			this.chart2.ChartAreas.Add(chartArea61);
+			legend61.Name = "Legend1";
+			this.chart2.Legends.Add(legend61);
 			this.chart2.Location = new System.Drawing.Point(126, 91);
 			this.chart2.Name = "chart2";
 			this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
 			this.chart2.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))))};
-			series1.ChartArea = "ChartArea1";
-			series1.Legend = "Legend1";
-			series1.Name = "Series1";
-			this.chart2.Series.Add(series1);
+			series61.ChartArea = "ChartArea1";
+			series61.Legend = "Legend1";
+			series61.Name = "Series1";
+			this.chart2.Series.Add(series61);
 			this.chart2.Size = new System.Drawing.Size(299, 104);
 			this.chart2.TabIndex = 10;
 			this.chart2.Text = "chart2";
@@ -980,16 +994,16 @@
 			// 
 			// chart1
 			// 
-			chartArea2.Name = "ChartArea1";
-			this.chart1.ChartAreas.Add(chartArea2);
-			legend2.Name = "Legend1";
-			this.chart1.Legends.Add(legend2);
+			chartArea62.Name = "ChartArea1";
+			this.chart1.ChartAreas.Add(chartArea62);
+			legend62.Name = "Legend1";
+			this.chart1.Legends.Add(legend62);
 			this.chart1.Location = new System.Drawing.Point(104, 140);
 			this.chart1.Name = "chart1";
-			series2.ChartArea = "ChartArea1";
-			series2.Legend = "Legend1";
-			series2.Name = "Series1";
-			this.chart1.Series.Add(series2);
+			series62.ChartArea = "ChartArea1";
+			series62.Legend = "Legend1";
+			series62.Name = "Series1";
+			this.chart1.Series.Add(series62);
 			this.chart1.Size = new System.Drawing.Size(408, 104);
 			this.chart1.TabIndex = 25;
 			this.chart1.Text = "chart1";
@@ -1279,17 +1293,17 @@
 			// 
 			// chart3
 			// 
-			chartArea3.Name = "ChartArea1";
-			this.chart3.ChartAreas.Add(chartArea3);
-			legend3.Name = "Legend1";
-			this.chart3.Legends.Add(legend3);
+			chartArea63.Name = "ChartArea1";
+			this.chart3.ChartAreas.Add(chartArea63);
+			legend63.Name = "Legend1";
+			this.chart3.Legends.Add(legend63);
 			this.chart3.Location = new System.Drawing.Point(30, 120);
 			this.chart3.Name = "chart3";
 			this.chart3.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
-			series3.ChartArea = "ChartArea1";
-			series3.Legend = "Legend1";
-			series3.Name = "Series1";
-			this.chart3.Series.Add(series3);
+			series63.ChartArea = "ChartArea1";
+			series63.Legend = "Legend1";
+			series63.Name = "Series1";
+			this.chart3.Series.Add(series63);
 			this.chart3.Size = new System.Drawing.Size(273, 300);
 			this.chart3.TabIndex = 15;
 			this.chart3.Text = "chart1";
@@ -1436,13 +1450,13 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(640, 480);
-			this.Controls.Add(this.panel1);
+			this.Controls.Add(this.panelHeader);
 			this.Controls.Add(this.tabControl);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "Build";
 			this.Text = "Build";
-			this.panel1.ResumeLayout(false);
-			this.panel1.PerformLayout();
+			this.panelHeader.ResumeLayout(false);
+			this.panelHeader.PerformLayout();
 			this.tabControl.ResumeLayout(false);
 			this.tabLogIn.ResumeLayout(false);
 			this.tabLogIn.PerformLayout();
@@ -1476,7 +1490,7 @@
 
 		#endregion
 
-		private System.Windows.Forms.Panel panel1;
+		private System.Windows.Forms.Panel panelHeader;
 		private FlatUI.FlatTabControl tabControl;
 		private System.Windows.Forms.TabPage tabLogIn;
 		private System.Windows.Forms.TabPage tabSignIn;
@@ -1573,5 +1587,6 @@
 		private FlatUI.FlatMini flatMini1;
 		private FlatUI.FlatClose flatClose1;
 		private FlatUI.FlatLabel titleLabel;
+		private FlatUI.FlatLabel flatLabel21;
 		}
 	}
