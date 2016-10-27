@@ -17,6 +17,7 @@ namespace VulnerabilidadMaestra
 			InitializeComponent();
 			}
 
+
 		private void llb_register_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
 			{
 			tab_Control.SelectedTab = tab_SignIn;
