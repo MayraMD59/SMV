@@ -7,3 +7,9 @@ C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilid
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.exe
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.pdb
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.Screen.resources
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\EntityFramework.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\MySql.Data.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\EntityFramework.xml
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\EntityFramework.SqlServer.xml
