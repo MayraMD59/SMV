@@ -37,3 +37,23 @@ C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\obj\
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\VulnerabilidadMaestra.exe
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\VulnerabilidadMaestra.pdb
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\obj\Debug\pruebas.PruebasVentanas.Build.resources
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\pruebas.exe.config
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\pruebas.exe
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\pruebas.pdb
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\EntityFramework.dll
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\Flat.dll
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\MySql.Data.dll
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\VulnerabilidadMaestra.exe
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\VulnerabilidadMaestra.pdb
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\EntityFramework.xml
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.csprojResolveAssemblyReference.cache
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.SimpleLogin.resources
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.Properties.Resources.resources
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.PruebasVentanas.Build.resources
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.PruebasVentanas.ListaGrupos.resources
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.csproj.GenerateResource.Cache
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.exe
+C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.pdb

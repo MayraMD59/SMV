@@ -28,16 +28,16 @@
 		/// </summary>
 		private void InitializeComponent()
 			{
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			this.pnl_Header = new System.Windows.Forms.Panel();
 			this.lbl_Title = new FlatUI.FlatLabel();
 			this.btn_min = new FlatUI.FlatMini();
@@ -54,7 +54,6 @@
 			this.txtbox_Usrnm = new FlatUI.FlatTextBox();
 			this.tab_SignIn = new System.Windows.Forms.TabPage();
 			this.cbb_sesionOptions = new FlatUI.FlatComboBox();
-			this.lbl_SessionID = new iTalk.iTalk_LinkLabel();
 			this.iTalk_Label1 = new iTalk.iTalk_Label();
 			this.flatLabel11 = new FlatUI.FlatLabel();
 			this.txtbox_regTeacherCode = new FlatUI.FlatTextBox();
@@ -321,7 +320,6 @@
 			// 
 			this.tab_SignIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
 			this.tab_SignIn.Controls.Add(this.cbb_sesionOptions);
-			this.tab_SignIn.Controls.Add(this.lbl_SessionID);
 			this.tab_SignIn.Controls.Add(this.iTalk_Label1);
 			this.tab_SignIn.Controls.Add(this.flatLabel11);
 			this.tab_SignIn.Controls.Add(this.txtbox_regTeacherCode);
@@ -363,22 +361,6 @@
 			this.cbb_sesionOptions.Name = "cbb_sesionOptions";
 			this.cbb_sesionOptions.Size = new System.Drawing.Size(46, 24);
 			this.cbb_sesionOptions.TabIndex = 17;
-			// 
-			// lbl_SessionID
-			// 
-			this.lbl_SessionID.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(101)))), ((int)(((byte)(202)))));
-			this.lbl_SessionID.AutoSize = true;
-			this.lbl_SessionID.BackColor = System.Drawing.Color.Transparent;
-			this.lbl_SessionID.Font = new System.Drawing.Font("Verdana", 10F);
-			this.lbl_SessionID.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-			this.lbl_SessionID.LinkColor = System.Drawing.Color.Silver;
-			this.lbl_SessionID.Location = new System.Drawing.Point(314, 28);
-			this.lbl_SessionID.Name = "lbl_SessionID";
-			this.lbl_SessionID.Size = new System.Drawing.Size(130, 17);
-			this.lbl_SessionID.TabIndex = 16;
-			this.lbl_SessionID.TabStop = true;
-			this.lbl_SessionID.Text = "Student Name---";
-			this.lbl_SessionID.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(101)))), ((int)(((byte)(202)))));
 			// 
 			// iTalk_Label1
 			// 
@@ -589,7 +571,7 @@
 			this.flatLabel4.ForeColor = System.Drawing.Color.White;
 			this.flatLabel4.Location = new System.Drawing.Point(23, 25);
 			this.flatLabel4.Name = "flatLabel4";
-			this.flatLabel4.Size = new System.Drawing.Size(115, 37);
+			this.flatLabel4.Size = new System.Drawing.Size(114, 37);
 			this.flatLabel4.TabIndex = 0;
 			this.flatLabel4.Text = "Registro";
 			// 
@@ -629,7 +611,7 @@
 			this.btn_suscriptions.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
 			this.btn_suscriptions.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.btn_suscriptions.Font = new System.Drawing.Font("Segoe UI", 12F);
-			this.btn_suscriptions.Location = new System.Drawing.Point(400, 359);
+			this.btn_suscriptions.Location = new System.Drawing.Point(31, 372);
 			this.btn_suscriptions.Name = "btn_suscriptions";
 			this.btn_suscriptions.Rounded = false;
 			this.btn_suscriptions.Size = new System.Drawing.Size(106, 45);
@@ -643,7 +625,7 @@
 			this.flatButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
 			this.flatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.flatButton3.Font = new System.Drawing.Font("Segoe UI", 12F);
-			this.flatButton3.Location = new System.Drawing.Point(280, 372);
+			this.flatButton3.Location = new System.Drawing.Point(31, 270);
 			this.flatButton3.Name = "flatButton3";
 			this.flatButton3.Rounded = false;
 			this.flatButton3.Size = new System.Drawing.Size(106, 32);
@@ -657,7 +639,7 @@
 			this.flatButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
 			this.flatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.flatButton2.Font = new System.Drawing.Font("Segoe UI", 12F);
-			this.flatButton2.Location = new System.Drawing.Point(280, 334);
+			this.flatButton2.Location = new System.Drawing.Point(31, 321);
 			this.flatButton2.Name = "flatButton2";
 			this.flatButton2.Rounded = false;
 			this.flatButton2.Size = new System.Drawing.Size(106, 32);
@@ -668,16 +650,16 @@
 			// chart2
 			// 
 			this.chart2.BackColor = System.Drawing.Color.Transparent;
-			chartArea13.Name = "ChartArea1";
-			this.chart2.ChartAreas.Add(chartArea13);
-			legend13.Name = "Legend1";
-			this.chart2.Legends.Add(legend13);
+			chartArea4.Name = "ChartArea1";
+			this.chart2.ChartAreas.Add(chartArea4);
+			legend4.Name = "Legend1";
+			this.chart2.Legends.Add(legend4);
 			this.chart2.Location = new System.Drawing.Point(24, 79);
 			this.chart2.Name = "chart2";
-			series17.ChartArea = "ChartArea1";
-			series17.Legend = "Legend1";
-			series17.Name = "Series1";
-			this.chart2.Series.Add(series17);
+			series5.ChartArea = "ChartArea1";
+			series5.Legend = "Legend1";
+			series5.Name = "Series1";
+			this.chart2.Series.Add(series5);
 			this.chart2.Size = new System.Drawing.Size(329, 132);
 			this.chart2.TabIndex = 5;
 			this.chart2.Text = "chart2";
@@ -727,21 +709,21 @@
 			this.chrt_StudentSubjects.BackColor = System.Drawing.Color.Transparent;
 			this.chrt_StudentSubjects.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
 			this.chrt_StudentSubjects.BorderSkin.PageColor = System.Drawing.Color.Turquoise;
-			chartArea14.Name = "ChartArea1";
-			this.chrt_StudentSubjects.ChartAreas.Add(chartArea14);
-			legend14.Name = "Legend1";
-			this.chrt_StudentSubjects.Legends.Add(legend14);
+			chartArea5.Name = "ChartArea1";
+			this.chrt_StudentSubjects.ChartAreas.Add(chartArea5);
+			legend5.Name = "Legend1";
+			this.chrt_StudentSubjects.Legends.Add(legend5);
 			this.chrt_StudentSubjects.Location = new System.Drawing.Point(8, 91);
 			this.chrt_StudentSubjects.Name = "chrt_StudentSubjects";
 			this.chrt_StudentSubjects.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-			series18.ChartArea = "ChartArea1";
-			series18.Legend = "Legend1";
-			series18.Name = "Parcial 1";
-			series19.ChartArea = "ChartArea1";
-			series19.Legend = "Legend1";
-			series19.Name = "Parcial 2";
-			this.chrt_StudentSubjects.Series.Add(series18);
-			this.chrt_StudentSubjects.Series.Add(series19);
+			series6.ChartArea = "ChartArea1";
+			series6.Legend = "Legend1";
+			series6.Name = "Parcial 1";
+			series7.ChartArea = "ChartArea1";
+			series7.Legend = "Legend1";
+			series7.Name = "Parcial 2";
+			this.chrt_StudentSubjects.Series.Add(series6);
+			this.chrt_StudentSubjects.Series.Add(series7);
 			this.chrt_StudentSubjects.Size = new System.Drawing.Size(330, 136);
 			this.chrt_StudentSubjects.TabIndex = 2;
 			this.chrt_StudentSubjects.Text = "chart1";
@@ -804,17 +786,17 @@
 			// grph_teacherCourseOverviewData
 			// 
 			this.grph_teacherCourseOverviewData.BackColor = System.Drawing.Color.Transparent;
-			chartArea15.Name = "ChartArea1";
-			this.grph_teacherCourseOverviewData.ChartAreas.Add(chartArea15);
-			legend15.Name = "Legend1";
-			this.grph_teacherCourseOverviewData.Legends.Add(legend15);
+			chartArea6.Name = "ChartArea1";
+			this.grph_teacherCourseOverviewData.ChartAreas.Add(chartArea6);
+			legend6.Name = "Legend1";
+			this.grph_teacherCourseOverviewData.Legends.Add(legend6);
 			this.grph_teacherCourseOverviewData.Location = new System.Drawing.Point(0, 108);
 			this.grph_teacherCourseOverviewData.Name = "grph_teacherCourseOverviewData";
 			this.grph_teacherCourseOverviewData.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
-			series20.ChartArea = "ChartArea1";
-			series20.Legend = "Legend1";
-			series20.Name = "Series1";
-			this.grph_teacherCourseOverviewData.Series.Add(series20);
+			series8.ChartArea = "ChartArea1";
+			series8.Legend = "Legend1";
+			series8.Name = "Series1";
+			this.grph_teacherCourseOverviewData.Series.Add(series8);
 			this.grph_teacherCourseOverviewData.Size = new System.Drawing.Size(277, 300);
 			this.grph_teacherCourseOverviewData.TabIndex = 1;
 			this.grph_teacherCourseOverviewData.Text = "chart1";
@@ -1184,6 +1166,6 @@
 		private FlatUI.FlatButton Btn_CreateGroup;
 		private System.Windows.Forms.TabPage tab_TeacherMenu;
 		public FlatUI.FlatComboBox cbb_sesionOptions;
-		public iTalk.iTalk_LinkLabel lbl_SessionID;
+		//public iTalk.iTalk_LinkLabel lbl_SessionID;
 		}
 	}
