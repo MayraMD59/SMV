@@ -173,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\118739.png" />
+    <None Include="Resources\Logo2.png" />
     <Content Include="Themes\Flat\Flat.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

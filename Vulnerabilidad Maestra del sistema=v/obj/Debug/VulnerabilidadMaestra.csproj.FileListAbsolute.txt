@@ -28,3 +28,6 @@ C:\Users\Kevinazo\Source\Repos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debu
 C:\Users\Kevinazo\Source\Repos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\MySql.Data.Entity.EF6.dll
 C:\Users\Kevinazo\Source\Repos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\EntityFramework.xml
 C:\Users\Kevinazo\Source\Repos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MaryNest\Source\Repos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\VulnerabilidadMaestra.exe.config
+C:\Users\MaryNest\Source\Repos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.exe
+C:\Users\MaryNest\Source\Repos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.pdb
