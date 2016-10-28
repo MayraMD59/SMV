@@ -28,16 +28,16 @@
 		/// </summary>
 		private void InitializeComponent()
 			{
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			this.pnl_Header = new System.Windows.Forms.Panel();
 			this.lbl_Title = new FlatUI.FlatLabel();
 			this.btn_min = new FlatUI.FlatMini();
@@ -105,12 +105,13 @@
 			this.Btn_CreateGroup = new FlatUI.FlatButton();
 			this.flatLabel17 = new FlatUI.FlatLabel();
 			this.tab_TeacherMenu = new System.Windows.Forms.TabPage();
-			this.iTalk_HeaderLabel1 = new iTalk.iTalk_HeaderLabel();
-			this.flatLabel18 = new FlatUI.FlatLabel();
-			this.flatButton5 = new FlatUI.FlatButton();
-			this.flatButton6 = new FlatUI.FlatButton();
 			this.flatButton7 = new FlatUI.FlatButton();
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.flatButton6 = new FlatUI.FlatButton();
+			this.flatButton5 = new FlatUI.FlatButton();
+			this.flatLabel18 = new FlatUI.FlatLabel();
+			this.iTalk_HeaderLabel1 = new iTalk.iTalk_HeaderLabel();
+			this.label_nombre = new FlatUI.FlatLabel();
+			this.lbl_3Name = new FlatUI.FlatLabel();
 			this.pnl_Header.SuspendLayout();
 			this.pnl_Body.SuspendLayout();
 			this.tab_Control.SuspendLayout();
@@ -127,7 +128,6 @@
 			this.tab_TeacherCreateGroup.SuspendLayout();
 			this.tab_TeachergroupList.SuspendLayout();
 			this.tab_TeacherMenu.SuspendLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// pnl_Header
@@ -658,16 +658,16 @@
 			// chart2
 			// 
 			this.chart2.BackColor = System.Drawing.Color.Transparent;
-			chartArea13.Name = "ChartArea1";
-			this.chart2.ChartAreas.Add(chartArea13);
-			legend13.Name = "Legend1";
-			this.chart2.Legends.Add(legend13);
+			chartArea1.Name = "ChartArea1";
+			this.chart2.ChartAreas.Add(chartArea1);
+			legend1.Name = "Legend1";
+			this.chart2.Legends.Add(legend1);
 			this.chart2.Location = new System.Drawing.Point(24, 79);
 			this.chart2.Name = "chart2";
-			series17.ChartArea = "ChartArea1";
-			series17.Legend = "Legend1";
-			series17.Name = "Series1";
-			this.chart2.Series.Add(series17);
+			series1.ChartArea = "ChartArea1";
+			series1.Legend = "Legend1";
+			series1.Name = "Series1";
+			this.chart2.Series.Add(series1);
 			this.chart2.Size = new System.Drawing.Size(329, 132);
 			this.chart2.TabIndex = 5;
 			this.chart2.Text = "chart2";
@@ -717,21 +717,21 @@
 			this.chrt_StudentSubjects.BackColor = System.Drawing.Color.Transparent;
 			this.chrt_StudentSubjects.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
 			this.chrt_StudentSubjects.BorderSkin.PageColor = System.Drawing.Color.Turquoise;
-			chartArea14.Name = "ChartArea1";
-			this.chrt_StudentSubjects.ChartAreas.Add(chartArea14);
-			legend14.Name = "Legend1";
-			this.chrt_StudentSubjects.Legends.Add(legend14);
+			chartArea2.Name = "ChartArea1";
+			this.chrt_StudentSubjects.ChartAreas.Add(chartArea2);
+			legend2.Name = "Legend1";
+			this.chrt_StudentSubjects.Legends.Add(legend2);
 			this.chrt_StudentSubjects.Location = new System.Drawing.Point(8, 91);
 			this.chrt_StudentSubjects.Name = "chrt_StudentSubjects";
 			this.chrt_StudentSubjects.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-			series18.ChartArea = "ChartArea1";
-			series18.Legend = "Legend1";
-			series18.Name = "Parcial 1";
-			series19.ChartArea = "ChartArea1";
-			series19.Legend = "Legend1";
-			series19.Name = "Parcial 2";
-			this.chrt_StudentSubjects.Series.Add(series18);
-			this.chrt_StudentSubjects.Series.Add(series19);
+			series2.ChartArea = "ChartArea1";
+			series2.Legend = "Legend1";
+			series2.Name = "Parcial 1";
+			series3.ChartArea = "ChartArea1";
+			series3.Legend = "Legend1";
+			series3.Name = "Parcial 2";
+			this.chrt_StudentSubjects.Series.Add(series2);
+			this.chrt_StudentSubjects.Series.Add(series3);
 			this.chrt_StudentSubjects.Size = new System.Drawing.Size(330, 136);
 			this.chrt_StudentSubjects.TabIndex = 2;
 			this.chrt_StudentSubjects.Text = "chart1";
@@ -794,17 +794,17 @@
 			// grph_teacherCourseOverviewData
 			// 
 			this.grph_teacherCourseOverviewData.BackColor = System.Drawing.Color.Transparent;
-			chartArea15.Name = "ChartArea1";
-			this.grph_teacherCourseOverviewData.ChartAreas.Add(chartArea15);
-			legend15.Name = "Legend1";
-			this.grph_teacherCourseOverviewData.Legends.Add(legend15);
+			chartArea3.Name = "ChartArea1";
+			this.grph_teacherCourseOverviewData.ChartAreas.Add(chartArea3);
+			legend3.Name = "Legend1";
+			this.grph_teacherCourseOverviewData.Legends.Add(legend3);
 			this.grph_teacherCourseOverviewData.Location = new System.Drawing.Point(0, 108);
 			this.grph_teacherCourseOverviewData.Name = "grph_teacherCourseOverviewData";
 			this.grph_teacherCourseOverviewData.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
-			series20.ChartArea = "ChartArea1";
-			series20.Legend = "Legend1";
-			series20.Name = "Series1";
-			this.grph_teacherCourseOverviewData.Series.Add(series20);
+			series4.ChartArea = "ChartArea1";
+			series4.Legend = "Legend1";
+			series4.Name = "Series1";
+			this.grph_teacherCourseOverviewData.Series.Add(series4);
 			this.grph_teacherCourseOverviewData.Size = new System.Drawing.Size(277, 300);
 			this.grph_teacherCourseOverviewData.TabIndex = 1;
 			this.grph_teacherCourseOverviewData.Text = "chart1";
@@ -1062,7 +1062,8 @@
 			// tab_TeacherMenu
 			// 
 			this.tab_TeacherMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
-			this.tab_TeacherMenu.Controls.Add(this.pictureBox1);
+			this.tab_TeacherMenu.Controls.Add(this.lbl_3Name);
+			this.tab_TeacherMenu.Controls.Add(this.label_nombre);
 			this.tab_TeacherMenu.Controls.Add(this.flatButton7);
 			this.tab_TeacherMenu.Controls.Add(this.flatButton6);
 			this.tab_TeacherMenu.Controls.Add(this.flatButton5);
@@ -1073,58 +1074,6 @@
 			this.tab_TeacherMenu.Size = new System.Drawing.Size(532, 434);
 			this.tab_TeacherMenu.TabIndex = 7;
 			this.tab_TeacherMenu.Text = "tabPage1";
-			// 
-			// iTalk_HeaderLabel1
-			// 
-			this.iTalk_HeaderLabel1.AutoSize = true;
-			this.iTalk_HeaderLabel1.BackColor = System.Drawing.Color.Transparent;
-			this.iTalk_HeaderLabel1.Font = new System.Drawing.Font("Segoe UI", 25F);
-			this.iTalk_HeaderLabel1.ForeColor = System.Drawing.Color.Goldenrod;
-			this.iTalk_HeaderLabel1.Location = new System.Drawing.Point(329, 29);
-			this.iTalk_HeaderLabel1.Name = "iTalk_HeaderLabel1";
-			this.iTalk_HeaderLabel1.Size = new System.Drawing.Size(161, 46);
-			this.iTalk_HeaderLabel1.TabIndex = 0;
-			this.iTalk_HeaderLabel1.Text = "Welcome";
-			// 
-			// flatLabel18
-			// 
-			this.flatLabel18.AutoSize = true;
-			this.flatLabel18.BackColor = System.Drawing.Color.Transparent;
-			this.flatLabel18.Font = new System.Drawing.Font("High Tower Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.flatLabel18.ForeColor = System.Drawing.Color.Goldenrod;
-			this.flatLabel18.Location = new System.Drawing.Point(22, 372);
-			this.flatLabel18.Name = "flatLabel18";
-			this.flatLabel18.Size = new System.Drawing.Size(188, 22);
-			this.flatLabel18.TabIndex = 1;
-			this.flatLabel18.Text = "Select your option . . .";
-			// 
-			// flatButton5
-			// 
-			this.flatButton5.BackColor = System.Drawing.Color.Transparent;
-			this.flatButton5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-			this.flatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.flatButton5.Font = new System.Drawing.Font("Segoe UI", 12F);
-			this.flatButton5.Location = new System.Drawing.Point(369, 261);
-			this.flatButton5.Name = "flatButton5";
-			this.flatButton5.Rounded = false;
-			this.flatButton5.Size = new System.Drawing.Size(122, 45);
-			this.flatButton5.TabIndex = 3;
-			this.flatButton5.Text = "Create Group";
-			this.flatButton5.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-			// 
-			// flatButton6
-			// 
-			this.flatButton6.BackColor = System.Drawing.Color.Transparent;
-			this.flatButton6.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-			this.flatButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.flatButton6.Font = new System.Drawing.Font("Segoe UI", 12F);
-			this.flatButton6.Location = new System.Drawing.Point(36, 261);
-			this.flatButton6.Name = "flatButton6";
-			this.flatButton6.Rounded = false;
-			this.flatButton6.Size = new System.Drawing.Size(122, 45);
-			this.flatButton6.TabIndex = 4;
-			this.flatButton6.Text = "Course Overview";
-			this.flatButton6.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
 			// 
 			// flatButton7
 			// 
@@ -1140,16 +1089,80 @@
 			this.flatButton7.Text = "Group List";
 			this.flatButton7.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
 			// 
-			// pictureBox1
+			// flatButton6
 			// 
-			this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.pictureBox1.Image = global::VulnerabilidadMaestra.Properties.Resources.Logo2;
-			this.pictureBox1.Location = new System.Drawing.Point(36, 48);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(128, 68);
-			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox1.TabIndex = 7;
-			this.pictureBox1.TabStop = false;
+			this.flatButton6.BackColor = System.Drawing.Color.Transparent;
+			this.flatButton6.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
+			this.flatButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.flatButton6.Font = new System.Drawing.Font("Segoe UI", 12F);
+			this.flatButton6.Location = new System.Drawing.Point(36, 261);
+			this.flatButton6.Name = "flatButton6";
+			this.flatButton6.Rounded = false;
+			this.flatButton6.Size = new System.Drawing.Size(122, 45);
+			this.flatButton6.TabIndex = 4;
+			this.flatButton6.Text = "Course Overview";
+			this.flatButton6.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+			// 
+			// flatButton5
+			// 
+			this.flatButton5.BackColor = System.Drawing.Color.Transparent;
+			this.flatButton5.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
+			this.flatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.flatButton5.Font = new System.Drawing.Font("Segoe UI", 12F);
+			this.flatButton5.Location = new System.Drawing.Point(369, 261);
+			this.flatButton5.Name = "flatButton5";
+			this.flatButton5.Rounded = false;
+			this.flatButton5.Size = new System.Drawing.Size(122, 45);
+			this.flatButton5.TabIndex = 3;
+			this.flatButton5.Text = "Create Group";
+			this.flatButton5.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+			// 
+			// flatLabel18
+			// 
+			this.flatLabel18.AutoSize = true;
+			this.flatLabel18.BackColor = System.Drawing.Color.Transparent;
+			this.flatLabel18.Font = new System.Drawing.Font("High Tower Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.flatLabel18.ForeColor = System.Drawing.Color.Goldenrod;
+			this.flatLabel18.Location = new System.Drawing.Point(22, 372);
+			this.flatLabel18.Name = "flatLabel18";
+			this.flatLabel18.Size = new System.Drawing.Size(188, 22);
+			this.flatLabel18.TabIndex = 1;
+			this.flatLabel18.Text = "Select your option . . .";
+			// 
+			// iTalk_HeaderLabel1
+			// 
+			this.iTalk_HeaderLabel1.AutoSize = true;
+			this.iTalk_HeaderLabel1.BackColor = System.Drawing.Color.Transparent;
+			this.iTalk_HeaderLabel1.Font = new System.Drawing.Font("Segoe UI", 25F);
+			this.iTalk_HeaderLabel1.ForeColor = System.Drawing.Color.Goldenrod;
+			this.iTalk_HeaderLabel1.Location = new System.Drawing.Point(329, 29);
+			this.iTalk_HeaderLabel1.Name = "iTalk_HeaderLabel1";
+			this.iTalk_HeaderLabel1.Size = new System.Drawing.Size(161, 46);
+			this.iTalk_HeaderLabel1.TabIndex = 0;
+			this.iTalk_HeaderLabel1.Text = "Welcome";
+			// 
+			// label_nombre
+			// 
+			this.label_nombre.AutoSize = true;
+			this.label_nombre.BackColor = System.Drawing.Color.Transparent;
+			this.label_nombre.Font = new System.Drawing.Font("Segoe UI", 8F);
+			this.label_nombre.ForeColor = System.Drawing.Color.White;
+			this.label_nombre.Location = new System.Drawing.Point(82, 61);
+			this.label_nombre.Name = "label_nombre";
+			this.label_nombre.Size = new System.Drawing.Size(0, 13);
+			this.label_nombre.TabIndex = 6;
+			// 
+			// lbl_3Name
+			// 
+			this.lbl_3Name.AutoSize = true;
+			this.lbl_3Name.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_3Name.Font = new System.Drawing.Font("Segoe UI Semibold", 18F);
+			this.lbl_3Name.ForeColor = System.Drawing.Color.White;
+			this.lbl_3Name.Location = new System.Drawing.Point(26, 30);
+			this.lbl_3Name.Name = "lbl_3Name";
+			this.lbl_3Name.Size = new System.Drawing.Size(223, 32);
+			this.lbl_3Name.TabIndex = 7;
+			this.lbl_3Name.Text = "Nombre alumno---";
 			// 
 			// Screen
 			// 
@@ -1186,7 +1199,6 @@
 			this.tab_TeachergroupList.PerformLayout();
 			this.tab_TeacherMenu.ResumeLayout(false);
 			this.tab_TeacherMenu.PerformLayout();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 
 			}
@@ -1260,12 +1272,13 @@
 		private FlatUI.FlatButton Btn_CreateGroup;
 		private System.Windows.Forms.TabPage tab_TeacherMenu;
 		public FlatUI.FlatComboBox cbb_sesionOptions;
-		private System.Windows.Forms.PictureBox pictureBox1;
 		private FlatUI.FlatButton flatButton7;
 		private FlatUI.FlatButton flatButton6;
 		private FlatUI.FlatButton flatButton5;
 		private FlatUI.FlatLabel flatLabel18;
 		private iTalk.iTalk_HeaderLabel iTalk_HeaderLabel1;
+		private FlatUI.FlatLabel lbl_3Name;
+		private FlatUI.FlatLabel label_nombre;
 		//public iTalk.iTalk_LinkLabel lbl_SessionID;
 	}
 	}
