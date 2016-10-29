@@ -20,3 +20,14 @@ C:\Users\Kevinazo\Source\Repos\SMV\BusinessLogic\bin\Debug\EntityFramework.SqlSe
 C:\Users\Kevinazo\Source\Repos\SMV\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 C:\Users\Kevinazo\Source\Repos\SMV\BusinessLogic\obj\Debug\BusinessLogic.dll
 C:\Users\Kevinazo\Source\Repos\SMV\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\BusinessLogic.dll.config
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\BusinessEntities.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\DataAccessLayer.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\MySql.Data.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\BusinessEntities.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\DataAccessLayer.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml

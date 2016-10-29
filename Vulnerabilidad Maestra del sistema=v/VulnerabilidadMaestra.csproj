@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Vulnerabilidad_Maestra_del_sistema_v.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
@@ -63,6 +66,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bin\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="bin\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="bin\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Screen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +153,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Themes\FlatUI\MouseState.cs" />
+    <EmbeddedResource Include="bin\obj\Debug\VulnerabilidadMaestra.Properties.Resources.resources" />
+    <EmbeddedResource Include="bin\obj\Debug\VulnerabilidadMaestra.Screen.resources" />
     <EmbeddedResource Include="Screen.resx">
       <DependentUpon>Screen.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +168,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="bin\Debug\Vulnerabilidad Maestra del sistema=v.vshost.exe.config" />
+    <None Include="bin\Debug\Vulnerabilidad Maestra del sistema=v.vshost.exe.manifest" />
+    <None Include="bin\Debug\VulnerabilidadMaestra.vshost.exe.config" />
+    <None Include="bin\Debug\VulnerabilidadMaestra.vshost.exe.manifest" />
+    <None Include="bin\obj\Debug\build.force" />
+    <None Include="bin\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="bin\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="bin\obj\Debug\Vulnerabilidad Maestra del sistema=v.csproj.GenerateResource.Cache" />
+    <None Include="bin\obj\Debug\Vulnerabilidad Maestra del sistema=v.csprojResolveAssemblyReference.cache" />
+    <None Include="bin\obj\Debug\VulnerabilidadMaestra.csproj.GenerateResource.Cache" />
+    <None Include="bin\obj\Debug\VulnerabilidadMaestra.csprojResolveAssemblyReference.cache" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -174,7 +196,22 @@
   <ItemGroup>
     <None Include="Resources\118739.png" />
     <None Include="Resources\Logo2.png" />
+    <Content Include="bin\Debug\Vulnerabilidad Maestra del sistema=v.vshost.exe" />
+    <Content Include="bin\Debug\VulnerabilidadMaestra.vshost.exe" />
+    <Content Include="bin\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="bin\obj\Debug\Vulnerabilidad Maestra del sistema=v.csproj.FileListAbsolute.txt" />
+    <Content Include="bin\obj\Debug\VulnerabilidadMaestra.csproj.FileListAbsolute.txt" />
     <Content Include="Themes\Flat\Flat.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
+      <Project>{fdc7cdd6-0cd5-41cd-b4ca-f8d95f7a542a}</Project>
+      <Name>BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+      <Project>{fe1b061a-f0ae-45be-9c19-7b31cfdf4cc9}</Project>
+      <Name>BusinessLogic</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

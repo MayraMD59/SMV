@@ -5,7 +5,6 @@ C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\BusinessEntities\obj\Debug\
 C:\Users\ZoPc\Google Drive\KevinFormsAndProjects\SMV\BusinessEntities\obj\Debug\BusinessEntities.pdb
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\BusinessEntities.dll
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\BusinessEntities.pdb
-C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\obj\Debug\BusinessEntities.dll
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\obj\Debug\BusinessEntities.pdb
 C:\Users\Kevinazo\Source\Repos\SMV\BusinessEntities\bin\Debug\BusinessEntities.dll.config
@@ -20,3 +19,10 @@ C:\Users\Kevinazo\Source\Repos\SMV\BusinessEntities\bin\Debug\EntityFramework.Sq
 C:\Users\Kevinazo\Source\Repos\SMV\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
 C:\Users\Kevinazo\Source\Repos\SMV\BusinessEntities\obj\Debug\BusinessEntities.dll
 C:\Users\Kevinazo\Source\Repos\SMV\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\BusinessEntities.dll.config
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\EntityFramework.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\MySql.Data.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\EntityFramework.xml
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\EntityFramework.SqlServer.xml

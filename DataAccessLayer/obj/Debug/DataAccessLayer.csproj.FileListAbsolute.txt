@@ -20,3 +20,12 @@ C:\Users\Kevinazo\Source\Repos\SMV\DataAccessLayer\bin\Debug\EntityFramework.Sql
 C:\Users\Kevinazo\Source\Repos\SMV\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
 C:\Users\Kevinazo\Source\Repos\SMV\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Kevinazo\Source\Repos\SMV\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\BusinessEntities.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\MySql.Data.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\BusinessEntities.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml

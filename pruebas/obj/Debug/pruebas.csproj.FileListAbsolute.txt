@@ -57,3 +57,9 @@ C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.PruebasVentanas.Lis
 C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.csproj.GenerateResource.Cache
 C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.exe
 C:\Users\Kevinazo\Source\Repos\SMV\pruebas\obj\Debug\pruebas.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\EntityFramework.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\MySql.Data.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\EntityFramework.xml
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\EntityFramework.SqlServer.xml
