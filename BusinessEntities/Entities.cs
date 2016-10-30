@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 	{
+
 	public class entity_course
 		{
 
-		public entity_course(string name,int courseQ, int courseUnits, int studentQ)//Constructor
+		public entity_course(string name, int courseQ, int courseUnits, int studentQ)//Constructor
 			{
 			// como lo que dijo kevin lo de arriba es lo de abajo , la entrada 
 			this.name = name;
@@ -18,14 +19,17 @@ namespace BusinessEntities
 			units = new int[x];
 			}//Atributos
 		private int x;
-		public string name;
-		public int[] units;
-		public int studentQuantity;
+		public string name { get; set; }
+		public int[] units { get; set; }
+		public int studentQuantity { get; set; }
 		}
 
 	public class entity_user
 		{
-
+		public entity_user(string n)
+			{
+			this.name = n;
+			}
 		public entity_user(string username, string psw, string email, string name, string lastName, string code)//Constructor
 			{
 			this.username = username;
@@ -49,7 +53,7 @@ namespace BusinessEntities
 		{
 		public static List<entity_course> courseList = new List<entity_course>();
 		public static List<entity_user> accountList = new List<entity_user>();
-		public static List<string> registeredUsernameList= new List<string>();
-
+		public static List<string> registeredUsernameList = new List<string>();
 		}
+
 	}

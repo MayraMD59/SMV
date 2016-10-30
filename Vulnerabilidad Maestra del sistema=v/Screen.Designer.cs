@@ -28,16 +28,17 @@
 		/// </summary>
 		private void InitializeComponent()
 			{
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			this.components = new System.ComponentModel.Container();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			this.pnl_Header = new System.Windows.Forms.Panel();
 			this.lbl_Title = new FlatUI.FlatLabel();
 			this.btn_min = new FlatUI.FlatMini();
@@ -53,22 +54,22 @@
 			this.txtbox_psswrd = new FlatUI.FlatTextBox();
 			this.txtbox_Usrnm = new FlatUI.FlatTextBox();
 			this.tab_SignIn = new System.Windows.Forms.TabPage();
-			this.flatLabel19 = new FlatUI.FlatLabel();
-			this.flatLabel5 = new FlatUI.FlatLabel();
+			this.lbl_pswMeter = new FlatUI.FlatLabel();
+			this.lbl_signInUsrnm = new FlatUI.FlatLabel();
 			this.txtbox_regUsername = new FlatUI.FlatTextBox();
 			this.btn_registerCancel = new FlatUI.FlatButton();
 			this.btn_registerOK = new FlatUI.FlatButton();
 			this.iTalk_Label1 = new iTalk.iTalk_Label();
-			this.flatLabel11 = new FlatUI.FlatLabel();
+			this.lbl_signInCode = new FlatUI.FlatLabel();
 			this.txtbox_regTeacherCode = new FlatUI.FlatTextBox();
-			this.flatLabel10 = new FlatUI.FlatLabel();
+			this.lbl_signInConfPsw = new FlatUI.FlatLabel();
 			this.txtbox_regConfPsw = new FlatUI.FlatTextBox();
-			this.flatLabel9 = new FlatUI.FlatLabel();
+			this.lbl_signInPsw = new FlatUI.FlatLabel();
 			this.txtbox_regPsswrd = new FlatUI.FlatTextBox();
 			this.flatLabel8 = new FlatUI.FlatLabel();
 			this.txtbox_regEmail = new FlatUI.FlatTextBox();
-			this.flatLabel7 = new FlatUI.FlatLabel();
-			this.flatLabel6 = new FlatUI.FlatLabel();
+			this.lbl_signInLastName = new FlatUI.FlatLabel();
+			this.lbl_signInName = new FlatUI.FlatLabel();
 			this.txtbox_regLastNames = new FlatUI.FlatTextBox();
 			this.txtbox_regName = new FlatUI.FlatTextBox();
 			this.flatLabel4 = new FlatUI.FlatLabel();
@@ -114,6 +115,7 @@
 			this.flatButton5 = new FlatUI.FlatButton();
 			this.flatLabel18 = new FlatUI.FlatLabel();
 			this.iTalk_HeaderLabel1 = new iTalk.iTalk_HeaderLabel();
+			this.tmr_pssword = new System.Windows.Forms.Timer(this.components);
 			this.pnl_Header.SuspendLayout();
 			this.pnl_Body.SuspendLayout();
 			this.tab_Control.SuspendLayout();
@@ -329,22 +331,22 @@
 			// tab_SignIn
 			// 
 			this.tab_SignIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
-			this.tab_SignIn.Controls.Add(this.flatLabel19);
-			this.tab_SignIn.Controls.Add(this.flatLabel5);
+			this.tab_SignIn.Controls.Add(this.lbl_pswMeter);
+			this.tab_SignIn.Controls.Add(this.lbl_signInUsrnm);
 			this.tab_SignIn.Controls.Add(this.txtbox_regUsername);
 			this.tab_SignIn.Controls.Add(this.btn_registerCancel);
 			this.tab_SignIn.Controls.Add(this.btn_registerOK);
 			this.tab_SignIn.Controls.Add(this.iTalk_Label1);
-			this.tab_SignIn.Controls.Add(this.flatLabel11);
+			this.tab_SignIn.Controls.Add(this.lbl_signInCode);
 			this.tab_SignIn.Controls.Add(this.txtbox_regTeacherCode);
-			this.tab_SignIn.Controls.Add(this.flatLabel10);
+			this.tab_SignIn.Controls.Add(this.lbl_signInConfPsw);
 			this.tab_SignIn.Controls.Add(this.txtbox_regConfPsw);
-			this.tab_SignIn.Controls.Add(this.flatLabel9);
+			this.tab_SignIn.Controls.Add(this.lbl_signInPsw);
 			this.tab_SignIn.Controls.Add(this.txtbox_regPsswrd);
 			this.tab_SignIn.Controls.Add(this.flatLabel8);
 			this.tab_SignIn.Controls.Add(this.txtbox_regEmail);
-			this.tab_SignIn.Controls.Add(this.flatLabel7);
-			this.tab_SignIn.Controls.Add(this.flatLabel6);
+			this.tab_SignIn.Controls.Add(this.lbl_signInLastName);
+			this.tab_SignIn.Controls.Add(this.lbl_signInName);
 			this.tab_SignIn.Controls.Add(this.txtbox_regLastNames);
 			this.tab_SignIn.Controls.Add(this.txtbox_regName);
 			this.tab_SignIn.Controls.Add(this.flatLabel4);
@@ -355,29 +357,28 @@
 			this.tab_SignIn.TabIndex = 1;
 			this.tab_SignIn.Text = "tabPage4";
 			// 
-			// flatLabel19
+			// lbl_pswMeter
 			// 
-			this.flatLabel19.AutoSize = true;
-			this.flatLabel19.BackColor = System.Drawing.Color.Transparent;
-			this.flatLabel19.Font = new System.Drawing.Font("Segoe UI", 8F);
-			this.flatLabel19.ForeColor = System.Drawing.Color.Lime;
-			this.flatLabel19.Location = new System.Drawing.Point(283, 263);
-			this.flatLabel19.Name = "flatLabel19";
-			this.flatLabel19.Size = new System.Drawing.Size(132, 13);
-			this.flatLabel19.TabIndex = 20;
-			this.flatLabel19.Text = "Contraseñas Coinciden:)";
+			this.lbl_pswMeter.AutoSize = true;
+			this.lbl_pswMeter.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_pswMeter.Font = new System.Drawing.Font("Segoe UI", 8F);
+			this.lbl_pswMeter.ForeColor = System.Drawing.Color.Lime;
+			this.lbl_pswMeter.Location = new System.Drawing.Point(283, 263);
+			this.lbl_pswMeter.Name = "lbl_pswMeter";
+			this.lbl_pswMeter.Size = new System.Drawing.Size(0, 13);
+			this.lbl_pswMeter.TabIndex = 20;
 			// 
-			// flatLabel5
+			// lbl_signInUsrnm
 			// 
-			this.flatLabel5.AutoSize = true;
-			this.flatLabel5.BackColor = System.Drawing.Color.Transparent;
-			this.flatLabel5.Font = new System.Drawing.Font("Segoe UI", 8F);
-			this.flatLabel5.ForeColor = System.Drawing.Color.White;
-			this.flatLabel5.Location = new System.Drawing.Point(31, 74);
-			this.flatLabel5.Name = "flatLabel5";
-			this.flatLabel5.Size = new System.Drawing.Size(107, 13);
-			this.flatLabel5.TabIndex = 19;
-			this.flatLabel5.Text = "Nombre de Usuario";
+			this.lbl_signInUsrnm.AutoSize = true;
+			this.lbl_signInUsrnm.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_signInUsrnm.Font = new System.Drawing.Font("Segoe UI", 8F);
+			this.lbl_signInUsrnm.ForeColor = System.Drawing.Color.White;
+			this.lbl_signInUsrnm.Location = new System.Drawing.Point(31, 74);
+			this.lbl_signInUsrnm.Name = "lbl_signInUsrnm";
+			this.lbl_signInUsrnm.Size = new System.Drawing.Size(107, 13);
+			this.lbl_signInUsrnm.TabIndex = 19;
+			this.lbl_signInUsrnm.Text = "Nombre de Usuario";
 			// 
 			// txtbox_regUsername
 			// 
@@ -436,17 +437,17 @@
 			this.iTalk_Label1.TabIndex = 15;
 			this.iTalk_Label1.Text = "*Dejese en blanco si no cuenta con uno";
 			// 
-			// flatLabel11
+			// lbl_signInCode
 			// 
-			this.flatLabel11.AutoSize = true;
-			this.flatLabel11.BackColor = System.Drawing.Color.Transparent;
-			this.flatLabel11.Font = new System.Drawing.Font("Segoe UI", 8F);
-			this.flatLabel11.ForeColor = System.Drawing.Color.White;
-			this.flatLabel11.Location = new System.Drawing.Point(31, 169);
-			this.flatLabel11.Name = "flatLabel11";
-			this.flatLabel11.Size = new System.Drawing.Size(106, 13);
-			this.flatLabel11.TabIndex = 14;
-			this.flatLabel11.Text = "Codigo de docente";
+			this.lbl_signInCode.AutoSize = true;
+			this.lbl_signInCode.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_signInCode.Font = new System.Drawing.Font("Segoe UI", 8F);
+			this.lbl_signInCode.ForeColor = System.Drawing.Color.White;
+			this.lbl_signInCode.Location = new System.Drawing.Point(31, 169);
+			this.lbl_signInCode.Name = "lbl_signInCode";
+			this.lbl_signInCode.Size = new System.Drawing.Size(106, 13);
+			this.lbl_signInCode.TabIndex = 14;
+			this.lbl_signInCode.Text = "Codigo de docente";
 			// 
 			// txtbox_regTeacherCode
 			// 
@@ -463,17 +464,17 @@
 			this.txtbox_regTeacherCode.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
 			this.txtbox_regTeacherCode.UseSystemPasswordChar = false;
 			// 
-			// flatLabel10
+			// lbl_signInConfPsw
 			// 
-			this.flatLabel10.AutoSize = true;
-			this.flatLabel10.BackColor = System.Drawing.Color.Transparent;
-			this.flatLabel10.Font = new System.Drawing.Font("Segoe UI", 8F);
-			this.flatLabel10.ForeColor = System.Drawing.Color.White;
-			this.flatLabel10.Location = new System.Drawing.Point(31, 265);
-			this.flatLabel10.Name = "flatLabel10";
-			this.flatLabel10.Size = new System.Drawing.Size(123, 13);
-			this.flatLabel10.TabIndex = 12;
-			this.flatLabel10.Text = "Confirmar Contraseña ";
+			this.lbl_signInConfPsw.AutoSize = true;
+			this.lbl_signInConfPsw.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_signInConfPsw.Font = new System.Drawing.Font("Segoe UI", 8F);
+			this.lbl_signInConfPsw.ForeColor = System.Drawing.Color.White;
+			this.lbl_signInConfPsw.Location = new System.Drawing.Point(31, 265);
+			this.lbl_signInConfPsw.Name = "lbl_signInConfPsw";
+			this.lbl_signInConfPsw.Size = new System.Drawing.Size(123, 13);
+			this.lbl_signInConfPsw.TabIndex = 12;
+			this.lbl_signInConfPsw.Text = "Confirmar Contraseña ";
 			// 
 			// txtbox_regConfPsw
 			// 
@@ -488,19 +489,19 @@
 			this.txtbox_regConfPsw.TabIndex = 11;
 			this.txtbox_regConfPsw.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			this.txtbox_regConfPsw.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-			this.txtbox_regConfPsw.UseSystemPasswordChar = false;
+			this.txtbox_regConfPsw.UseSystemPasswordChar = true;
 			// 
-			// flatLabel9
+			// lbl_signInPsw
 			// 
-			this.flatLabel9.AutoSize = true;
-			this.flatLabel9.BackColor = System.Drawing.Color.Transparent;
-			this.flatLabel9.Font = new System.Drawing.Font("Segoe UI", 8F);
-			this.flatLabel9.ForeColor = System.Drawing.Color.White;
-			this.flatLabel9.Location = new System.Drawing.Point(31, 217);
-			this.flatLabel9.Name = "flatLabel9";
-			this.flatLabel9.Size = new System.Drawing.Size(66, 13);
-			this.flatLabel9.TabIndex = 10;
-			this.flatLabel9.Text = "Contraseña";
+			this.lbl_signInPsw.AutoSize = true;
+			this.lbl_signInPsw.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_signInPsw.Font = new System.Drawing.Font("Segoe UI", 8F);
+			this.lbl_signInPsw.ForeColor = System.Drawing.Color.White;
+			this.lbl_signInPsw.Location = new System.Drawing.Point(31, 217);
+			this.lbl_signInPsw.Name = "lbl_signInPsw";
+			this.lbl_signInPsw.Size = new System.Drawing.Size(66, 13);
+			this.lbl_signInPsw.TabIndex = 10;
+			this.lbl_signInPsw.Text = "Contraseña";
 			// 
 			// txtbox_regPsswrd
 			// 
@@ -544,29 +545,29 @@
 			this.txtbox_regEmail.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
 			this.txtbox_regEmail.UseSystemPasswordChar = false;
 			// 
-			// flatLabel7
+			// lbl_signInLastName
 			// 
-			this.flatLabel7.AutoSize = true;
-			this.flatLabel7.BackColor = System.Drawing.Color.Transparent;
-			this.flatLabel7.Font = new System.Drawing.Font("Segoe UI", 8F);
-			this.flatLabel7.ForeColor = System.Drawing.Color.White;
-			this.flatLabel7.Location = new System.Drawing.Point(198, 121);
-			this.flatLabel7.Name = "flatLabel7";
-			this.flatLabel7.Size = new System.Drawing.Size(55, 13);
-			this.flatLabel7.TabIndex = 6;
-			this.flatLabel7.Text = "Apellidos";
+			this.lbl_signInLastName.AutoSize = true;
+			this.lbl_signInLastName.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_signInLastName.Font = new System.Drawing.Font("Segoe UI", 8F);
+			this.lbl_signInLastName.ForeColor = System.Drawing.Color.White;
+			this.lbl_signInLastName.Location = new System.Drawing.Point(198, 121);
+			this.lbl_signInLastName.Name = "lbl_signInLastName";
+			this.lbl_signInLastName.Size = new System.Drawing.Size(55, 13);
+			this.lbl_signInLastName.TabIndex = 6;
+			this.lbl_signInLastName.Text = "Apellidos";
 			// 
-			// flatLabel6
+			// lbl_signInName
 			// 
-			this.flatLabel6.AutoSize = true;
-			this.flatLabel6.BackColor = System.Drawing.Color.Transparent;
-			this.flatLabel6.Font = new System.Drawing.Font("Segoe UI", 8F);
-			this.flatLabel6.ForeColor = System.Drawing.Color.White;
-			this.flatLabel6.Location = new System.Drawing.Point(31, 121);
-			this.flatLabel6.Name = "flatLabel6";
-			this.flatLabel6.Size = new System.Drawing.Size(53, 13);
-			this.flatLabel6.TabIndex = 5;
-			this.flatLabel6.Text = "Nombres";
+			this.lbl_signInName.AutoSize = true;
+			this.lbl_signInName.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_signInName.Font = new System.Drawing.Font("Segoe UI", 8F);
+			this.lbl_signInName.ForeColor = System.Drawing.Color.White;
+			this.lbl_signInName.Location = new System.Drawing.Point(31, 121);
+			this.lbl_signInName.Name = "lbl_signInName";
+			this.lbl_signInName.Size = new System.Drawing.Size(53, 13);
+			this.lbl_signInName.TabIndex = 5;
+			this.lbl_signInName.Text = "Nombres";
 			// 
 			// txtbox_regLastNames
 			// 
@@ -685,16 +686,16 @@
 			// chart2
 			// 
 			this.chart2.BackColor = System.Drawing.Color.Transparent;
-			chartArea1.Name = "ChartArea1";
-			this.chart2.ChartAreas.Add(chartArea1);
-			legend1.Name = "Legend1";
-			this.chart2.Legends.Add(legend1);
+			chartArea4.Name = "ChartArea1";
+			this.chart2.ChartAreas.Add(chartArea4);
+			legend4.Name = "Legend1";
+			this.chart2.Legends.Add(legend4);
 			this.chart2.Location = new System.Drawing.Point(24, 79);
 			this.chart2.Name = "chart2";
-			series1.ChartArea = "ChartArea1";
-			series1.Legend = "Legend1";
-			series1.Name = "Series1";
-			this.chart2.Series.Add(series1);
+			series5.ChartArea = "ChartArea1";
+			series5.Legend = "Legend1";
+			series5.Name = "Series1";
+			this.chart2.Series.Add(series5);
 			this.chart2.Size = new System.Drawing.Size(329, 132);
 			this.chart2.TabIndex = 5;
 			this.chart2.Text = "chart2";
@@ -744,21 +745,21 @@
 			this.chrt_StudentSubjects.BackColor = System.Drawing.Color.Transparent;
 			this.chrt_StudentSubjects.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
 			this.chrt_StudentSubjects.BorderSkin.PageColor = System.Drawing.Color.Turquoise;
-			chartArea2.Name = "ChartArea1";
-			this.chrt_StudentSubjects.ChartAreas.Add(chartArea2);
-			legend2.Name = "Legend1";
-			this.chrt_StudentSubjects.Legends.Add(legend2);
+			chartArea5.Name = "ChartArea1";
+			this.chrt_StudentSubjects.ChartAreas.Add(chartArea5);
+			legend5.Name = "Legend1";
+			this.chrt_StudentSubjects.Legends.Add(legend5);
 			this.chrt_StudentSubjects.Location = new System.Drawing.Point(8, 91);
 			this.chrt_StudentSubjects.Name = "chrt_StudentSubjects";
 			this.chrt_StudentSubjects.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-			series2.ChartArea = "ChartArea1";
-			series2.Legend = "Legend1";
-			series2.Name = "Parcial 1";
-			series3.ChartArea = "ChartArea1";
-			series3.Legend = "Legend1";
-			series3.Name = "Parcial 2";
-			this.chrt_StudentSubjects.Series.Add(series2);
-			this.chrt_StudentSubjects.Series.Add(series3);
+			series6.ChartArea = "ChartArea1";
+			series6.Legend = "Legend1";
+			series6.Name = "Parcial 1";
+			series7.ChartArea = "ChartArea1";
+			series7.Legend = "Legend1";
+			series7.Name = "Parcial 2";
+			this.chrt_StudentSubjects.Series.Add(series6);
+			this.chrt_StudentSubjects.Series.Add(series7);
 			this.chrt_StudentSubjects.Size = new System.Drawing.Size(330, 136);
 			this.chrt_StudentSubjects.TabIndex = 2;
 			this.chrt_StudentSubjects.Text = "chart1";
@@ -821,17 +822,17 @@
 			// grph_teacherCourseOverviewData
 			// 
 			this.grph_teacherCourseOverviewData.BackColor = System.Drawing.Color.Transparent;
-			chartArea3.Name = "ChartArea1";
-			this.grph_teacherCourseOverviewData.ChartAreas.Add(chartArea3);
-			legend3.Name = "Legend1";
-			this.grph_teacherCourseOverviewData.Legends.Add(legend3);
+			chartArea6.Name = "ChartArea1";
+			this.grph_teacherCourseOverviewData.ChartAreas.Add(chartArea6);
+			legend6.Name = "Legend1";
+			this.grph_teacherCourseOverviewData.Legends.Add(legend6);
 			this.grph_teacherCourseOverviewData.Location = new System.Drawing.Point(0, 108);
 			this.grph_teacherCourseOverviewData.Name = "grph_teacherCourseOverviewData";
 			this.grph_teacherCourseOverviewData.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
-			series4.ChartArea = "ChartArea1";
-			series4.Legend = "Legend1";
-			series4.Name = "Series1";
-			this.grph_teacherCourseOverviewData.Series.Add(series4);
+			series8.ChartArea = "ChartArea1";
+			series8.Legend = "Legend1";
+			series8.Name = "Series1";
+			this.grph_teacherCourseOverviewData.Series.Add(series8);
 			this.grph_teacherCourseOverviewData.Size = new System.Drawing.Size(277, 300);
 			this.grph_teacherCourseOverviewData.TabIndex = 1;
 			this.grph_teacherCourseOverviewData.Text = "chart1";
@@ -1191,6 +1192,11 @@
 			this.iTalk_HeaderLabel1.TabIndex = 0;
 			this.iTalk_HeaderLabel1.Text = "Welcome";
 			// 
+			// tmr_pssword
+			// 
+			this.tmr_pssword.Interval = 1500;
+			this.tmr_pssword.Tick += new System.EventHandler(this.tmr_pssword_Tick);
+			// 
 			// Screen
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1248,12 +1254,12 @@
 		private FlatUI.FlatTextBox txtbox_psswrd;
 		private FlatUI.FlatTextBox txtbox_Usrnm;
 		private FlatUI.FlatLabel flatLabel4;
-		private FlatUI.FlatLabel flatLabel6;
-		private FlatUI.FlatLabel flatLabel7;
+		private FlatUI.FlatLabel lbl_signInName;
+		private FlatUI.FlatLabel lbl_signInLastName;
 		private FlatUI.FlatLabel flatLabel8;
-		private FlatUI.FlatLabel flatLabel10;
-		private FlatUI.FlatLabel flatLabel9;
-		private FlatUI.FlatLabel flatLabel11;
+		private FlatUI.FlatLabel lbl_signInConfPsw;
+		private FlatUI.FlatLabel lbl_signInPsw;
+		private FlatUI.FlatLabel lbl_signInCode;
 		private iTalk.iTalk_Label iTalk_Label1;
 		private System.Windows.Forms.TabPage tab_StudentCourseOverview;
 		private System.Windows.Forms.TabPage tab_StudentMain;
@@ -1305,9 +1311,10 @@
 		public FlatUI.FlatTextBox txtbox_regTeacherCode;
 		private FlatUI.FlatButton btn_registerCancel;
 		private FlatUI.FlatButton btn_registerOK;
-		private FlatUI.FlatLabel flatLabel5;
+		private FlatUI.FlatLabel lbl_signInUsrnm;
 		private FlatUI.FlatTextBox txtbox_regUsername;
-		private FlatUI.FlatLabel flatLabel19;
+		private FlatUI.FlatLabel lbl_pswMeter;
+		private System.Windows.Forms.Timer tmr_pssword;
 		//public iTalk.iTalk_LinkLabel lbl_SessionID;
 		}
 	}
