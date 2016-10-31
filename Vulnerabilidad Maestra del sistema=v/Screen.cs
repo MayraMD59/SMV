@@ -15,8 +15,9 @@ namespace VulnerabilidadMaestra
 		public Screen()
 			{
 			InitializeComponent();
-			
 			}
+		public static int sessionGlobalIndex;
+
 		private void llb_register_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
 			{
 			tab_Control.SelectedTab = tab_SignIn;
@@ -28,13 +29,13 @@ namespace VulnerabilidadMaestra
 			tab_Control.SelectedTab = tab_Login;
 			tmr_pssword.Enabled = false;
 			}
+
+		#region SignInButton
 		private void btn_registerOK_Click(object sender, EventArgs e)
 			{
-
-			signInFormEmptyField();
-
 			if (signInFormEmptyField())
 				{
+
 				string rawUser = txtbox_regUsername.Text;
 				string rawName = txtbox_regName.Text;
 				string rawLastName = txtbox_regLastNames.Text;
@@ -42,46 +43,63 @@ namespace VulnerabilidadMaestra
 				string rawPswrd = txtbox_regPsswrd.Text;
 				string rawEmail = txtbox_regEmail.Text;
 
-				BusinessLogic.register.BLLRegister(rawUser,rawName,rawLastName,rawCode,rawPswrd,rawEmail);
+				BusinessLogic.register.BLLRegisterUser(rawUser,rawName,rawLastName,rawCode,rawPswrd,rawEmail);
+
+				if (BusinessLogic.register.registrationDone())
+					{//Clean Textbox
+					txtbox_regUsername.Text = null;
+					txtbox_regName.Text = null;
+					txtbox_regLastNames.Text = null;
+					txtbox_regTeacherCode.Text = null;
+					txtbox_regPsswrd.Text = null;
+					txtbox_regConfPsw.Text = null;
+					txtbox_regEmail.Text = null;
+
+					tab_Control.SelectedTab = tab_Login;
+					}				
 				}
-
-
-
-			
 			}
+		#endregion
+		#region emptyTextboxCheck
 		private bool signInFormEmptyField()
-			{
+			{//Username textbox is empty
 			if (txtbox_regUsername.Text.Length == (0) || txtbox_regUsername.Text.Length < 0x4)
 				{
 				lbl_signInUsrnm.ForeColor = Color.Red;
 				return false;
-				}
-			else if (txtbox_regName.Text.Length == 0 || txtbox_regName.Text.Length < 0x4)
+				}//Name TextBox is empty
+			else if (txtbox_regName.Text.Length == 0 || txtbox_regName.Text.Length < 0x2)
 				{
 				lbl_signInName.ForeColor = Color.Red;
 				return false;
-				}
+				}// Last Name textbox is empty
 			else if (txtbox_regLastNames.Text.Length == 0 || txtbox_regLastNames.Text.Length < 0x4)
 				{
 				lbl_signInLastName.ForeColor = Color.Red;
 				return false;
-				}
-			else if ((txtbox_regPsswrd.Text.Length == 0 || txtbox_psswrd.Text.Length < 0x6))
+				}//Password textbox is empty
+			else if (txtbox_regPsswrd.Text.Length == 0 || txtbox_regPsswrd.Text.Length < 0x6)
 				{
 				lbl_signInPsw.ForeColor = Color.Red;
 				return false;
-				}
-			else if (txtbox_regConfPsw.Text.Length == 0 || txtbox_regConfPsw.Text.Length < 0x6)
+				}//confirm password textbox is empty
+			else if (txtbox_regConfPsw.Text != txtbox_regPsswrd.Text)
 				{
 				lbl_signInConfPsw.ForeColor = Color.Red;
 				return false;
 				}
 			else
 				{
+				lbl_signInUsrnm.ForeColor = Color.White;
+				lbl_signInPsw.ForeColor = Color.White;
+				lbl_signInConfPsw.ForeColor = Color.White;
+				lbl_signInName.ForeColor = Color.White;
+				lbl_signInLastName.ForeColor = Color.White;
 				return true;
 				}
 			}
-
+		#endregion
+		#region passwordTester
 		private void tmr_pssword_Tick(object sender, EventArgs e)
 			{// Void Textboxes
 			if ((txtbox_regPsswrd.Text.Length == 0 && txtbox_regConfPsw.Text.Length == 0))
@@ -97,6 +115,32 @@ namespace VulnerabilidadMaestra
 				{
 				lbl_pswMeter.Text = "Las contraseñas no coinciden:(";
 				lbl_pswMeter.ForeColor = Color.Red;
+				}
+			}
+		#endregion
+
+		private void btn_logIn_Click(object sender, EventArgs e)
+			{
+			if (logOnFormEmptyField())
+				{
+				BusinessLogic.logOn.BLLLogonUser(txtbox_Usrnm.Text, txtbox_psswrd.Text);
+				if (BusinessLogic.register.registrationDone())
+					{
+					txtbox_Usrnm.Text = null;
+					txtbox_psswrd.Text = null;
+					}
+				}
+			}
+
+		private bool logOnFormEmptyField()
+			{
+			if (txtbox_Usrnm.Text.Length==0 && txtbox_psswrd.Text.Length==0)
+				{
+				return false;
+				}
+			else
+				{
+				return true;
 				}
 			}
 		}

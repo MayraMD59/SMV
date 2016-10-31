@@ -30,7 +30,7 @@ namespace BusinessEntities
 			{
 			this.name = n;
 			}
-		public entity_user(string username, string psw, string email, string name, string lastName, string code)//Constructor
+		public entity_user(string username, string name, string lastName, string code, string psw, string email)//Constructor
 			{
 			this.username = username;
 			this.password = psw;
@@ -40,20 +40,26 @@ namespace BusinessEntities
 			this.code = code;
 
 			}//atributos
-		public string username;
-		public string password;
-		public string email;
-		public string name;
-		public string lastName;
-		public string code;
+		public int currentCourse = 0;
+		public entity_course[] courseQ = new entity_course[10]; 
+		public string username { get; }
+		public string name { get; }
+		public string lastName { get; }
+		public string code { get; }
+		public string password { get; }
+		public string email { get; }
 
 		}
 
-	public class globalLists
+	public static class globalLists
 		{
 		public static List<entity_course> courseList = new List<entity_course>();
 		public static List<entity_user> accountList = new List<entity_user>();
 		public static List<string> registeredUsernameList = new List<string>();
+		public static List<string> codes = new List<string>() { "ABC123", "123r43" };
+
+		public static string[,] userDataArray = new string[6,20];
+		//public static int[]
 		}
 
 	}

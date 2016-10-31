@@ -29,25 +29,23 @@
 		private void InitializeComponent()
 			{
 			this.components = new System.ComponentModel.Container();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea40 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend40 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series53 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea41 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend41 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series54 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.Series series55 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea42 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend42 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series56 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			this.pnl_Header = new System.Windows.Forms.Panel();
-			this.lbl_Title = new FlatUI.FlatLabel();
-			this.btn_min = new FlatUI.FlatMini();
-			this.btn_close = new FlatUI.FlatClose();
 			this.pnl_Body = new System.Windows.Forms.Panel();
+			this.tmr_pssword = new System.Windows.Forms.Timer(this.components);
 			this.tab_Control = new FlatUI.FlatTabControl();
 			this.tab_Login = new System.Windows.Forms.TabPage();
 			this.link_register = new iTalk.iTalk_LinkLabel();
-			this.flatButton1 = new FlatUI.FlatButton();
+			this.btn_logIn = new FlatUI.FlatButton();
 			this.flatLabel3 = new FlatUI.FlatLabel();
 			this.flatLabel2 = new FlatUI.FlatLabel();
 			this.flatLabel1 = new FlatUI.FlatLabel();
@@ -115,7 +113,9 @@
 			this.flatButton5 = new FlatUI.FlatButton();
 			this.flatLabel18 = new FlatUI.FlatLabel();
 			this.iTalk_HeaderLabel1 = new iTalk.iTalk_HeaderLabel();
-			this.tmr_pssword = new System.Windows.Forms.Timer(this.components);
+			this.lbl_Title = new FlatUI.FlatLabel();
+			this.btn_min = new FlatUI.FlatMini();
+			this.btn_close = new FlatUI.FlatClose();
 			this.pnl_Header.SuspendLayout();
 			this.pnl_Body.SuspendLayout();
 			this.tab_Control.SuspendLayout();
@@ -146,44 +146,6 @@
 			this.pnl_Header.Size = new System.Drawing.Size(540, 40);
 			this.pnl_Header.TabIndex = 0;
 			// 
-			// lbl_Title
-			// 
-			this.lbl_Title.AutoSize = true;
-			this.lbl_Title.BackColor = System.Drawing.Color.Transparent;
-			this.lbl_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lbl_Title.ForeColor = System.Drawing.Color.White;
-			this.lbl_Title.Location = new System.Drawing.Point(24, 3);
-			this.lbl_Title.Name = "lbl_Title";
-			this.lbl_Title.Size = new System.Drawing.Size(318, 32);
-			this.lbl_Title.TabIndex = 0;
-			this.lbl_Title.Text = "System Master Vulnerability";
-			// 
-			// btn_min
-			// 
-			this.btn_min.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btn_min.BackColor = System.Drawing.Color.White;
-			this.btn_min.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
-			this.btn_min.Font = new System.Drawing.Font("Marlett", 12F);
-			this.btn_min.Location = new System.Drawing.Point(492, 12);
-			this.btn_min.Name = "btn_min";
-			this.btn_min.Size = new System.Drawing.Size(18, 18);
-			this.btn_min.TabIndex = 0;
-			this.btn_min.Text = "flatMini1";
-			this.btn_min.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-			// 
-			// btn_close
-			// 
-			this.btn_close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btn_close.BackColor = System.Drawing.Color.White;
-			this.btn_close.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-			this.btn_close.Font = new System.Drawing.Font("Marlett", 10F);
-			this.btn_close.Location = new System.Drawing.Point(510, 12);
-			this.btn_close.Name = "btn_close";
-			this.btn_close.Size = new System.Drawing.Size(18, 18);
-			this.btn_close.TabIndex = 0;
-			this.btn_close.Text = "flatClose1";
-			this.btn_close.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-			// 
 			// pnl_Body
 			// 
 			this.pnl_Body.Controls.Add(this.tab_Control);
@@ -192,6 +154,11 @@
 			this.pnl_Body.Name = "pnl_Body";
 			this.pnl_Body.Size = new System.Drawing.Size(540, 440);
 			this.pnl_Body.TabIndex = 0;
+			// 
+			// tmr_pssword
+			// 
+			this.tmr_pssword.Interval = 1500;
+			this.tmr_pssword.Tick += new System.EventHandler(this.tmr_pssword_Tick);
 			// 
 			// tab_Control
 			// 
@@ -218,7 +185,7 @@
 			// 
 			this.tab_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
 			this.tab_Login.Controls.Add(this.link_register);
-			this.tab_Login.Controls.Add(this.flatButton1);
+			this.tab_Login.Controls.Add(this.btn_logIn);
 			this.tab_Login.Controls.Add(this.flatLabel3);
 			this.tab_Login.Controls.Add(this.flatLabel2);
 			this.tab_Login.Controls.Add(this.flatLabel1);
@@ -239,28 +206,29 @@
 			this.link_register.Font = new System.Drawing.Font("Segoe UI", 10F);
 			this.link_register.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
 			this.link_register.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(225)))));
-			this.link_register.Location = new System.Drawing.Point(228, 320);
+			this.link_register.Location = new System.Drawing.Point(207, 320);
 			this.link_register.Name = "link_register";
-			this.link_register.Size = new System.Drawing.Size(76, 19);
+			this.link_register.Size = new System.Drawing.Size(117, 19);
 			this.link_register.TabIndex = 4;
 			this.link_register.TabStop = true;
-			this.link_register.Text = "Registrarse";
+			this.link_register.Text = "Crear una Cuenta";
 			this.link_register.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(101)))), ((int)(((byte)(202)))));
 			this.link_register.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llb_register_LinkClicked);
 			// 
-			// flatButton1
+			// btn_logIn
 			// 
-			this.flatButton1.BackColor = System.Drawing.Color.Transparent;
-			this.flatButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-			this.flatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.flatButton1.Font = new System.Drawing.Font("Segoe UI", 14F);
-			this.flatButton1.Location = new System.Drawing.Point(192, 284);
-			this.flatButton1.Name = "flatButton1";
-			this.flatButton1.Rounded = false;
-			this.flatButton1.Size = new System.Drawing.Size(148, 32);
-			this.flatButton1.TabIndex = 3;
-			this.flatButton1.Text = "Iniciar sesion";
-			this.flatButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+			this.btn_logIn.BackColor = System.Drawing.Color.Transparent;
+			this.btn_logIn.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
+			this.btn_logIn.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.btn_logIn.Font = new System.Drawing.Font("Segoe UI", 14F);
+			this.btn_logIn.Location = new System.Drawing.Point(192, 284);
+			this.btn_logIn.Name = "btn_logIn";
+			this.btn_logIn.Rounded = false;
+			this.btn_logIn.Size = new System.Drawing.Size(148, 32);
+			this.btn_logIn.TabIndex = 3;
+			this.btn_logIn.Text = "Iniciar sesion";
+			this.btn_logIn.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+			this.btn_logIn.Click += new System.EventHandler(this.btn_logIn_Click);
 			// 
 			// flatLabel3
 			// 
@@ -317,7 +285,7 @@
 			// 
 			this.txtbox_Usrnm.BackColor = System.Drawing.Color.Transparent;
 			this.txtbox_Usrnm.FocusOnHover = false;
-			this.txtbox_Usrnm.Location = new System.Drawing.Point(144, 144);
+			this.txtbox_Usrnm.Location = new System.Drawing.Point(143, 144);
 			this.txtbox_Usrnm.MaxLength = 32767;
 			this.txtbox_Usrnm.Multiline = false;
 			this.txtbox_Usrnm.Name = "txtbox_Usrnm";
@@ -686,16 +654,16 @@
 			// chart2
 			// 
 			this.chart2.BackColor = System.Drawing.Color.Transparent;
-			chartArea4.Name = "ChartArea1";
-			this.chart2.ChartAreas.Add(chartArea4);
-			legend4.Name = "Legend1";
-			this.chart2.Legends.Add(legend4);
+			chartArea40.Name = "ChartArea1";
+			this.chart2.ChartAreas.Add(chartArea40);
+			legend40.Name = "Legend1";
+			this.chart2.Legends.Add(legend40);
 			this.chart2.Location = new System.Drawing.Point(24, 79);
 			this.chart2.Name = "chart2";
-			series5.ChartArea = "ChartArea1";
-			series5.Legend = "Legend1";
-			series5.Name = "Series1";
-			this.chart2.Series.Add(series5);
+			series53.ChartArea = "ChartArea1";
+			series53.Legend = "Legend1";
+			series53.Name = "Series1";
+			this.chart2.Series.Add(series53);
 			this.chart2.Size = new System.Drawing.Size(329, 132);
 			this.chart2.TabIndex = 5;
 			this.chart2.Text = "chart2";
@@ -745,21 +713,21 @@
 			this.chrt_StudentSubjects.BackColor = System.Drawing.Color.Transparent;
 			this.chrt_StudentSubjects.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
 			this.chrt_StudentSubjects.BorderSkin.PageColor = System.Drawing.Color.Turquoise;
-			chartArea5.Name = "ChartArea1";
-			this.chrt_StudentSubjects.ChartAreas.Add(chartArea5);
-			legend5.Name = "Legend1";
-			this.chrt_StudentSubjects.Legends.Add(legend5);
+			chartArea41.Name = "ChartArea1";
+			this.chrt_StudentSubjects.ChartAreas.Add(chartArea41);
+			legend41.Name = "Legend1";
+			this.chrt_StudentSubjects.Legends.Add(legend41);
 			this.chrt_StudentSubjects.Location = new System.Drawing.Point(8, 91);
 			this.chrt_StudentSubjects.Name = "chrt_StudentSubjects";
 			this.chrt_StudentSubjects.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-			series6.ChartArea = "ChartArea1";
-			series6.Legend = "Legend1";
-			series6.Name = "Parcial 1";
-			series7.ChartArea = "ChartArea1";
-			series7.Legend = "Legend1";
-			series7.Name = "Parcial 2";
-			this.chrt_StudentSubjects.Series.Add(series6);
-			this.chrt_StudentSubjects.Series.Add(series7);
+			series54.ChartArea = "ChartArea1";
+			series54.Legend = "Legend1";
+			series54.Name = "Parcial 1";
+			series55.ChartArea = "ChartArea1";
+			series55.Legend = "Legend1";
+			series55.Name = "Parcial 2";
+			this.chrt_StudentSubjects.Series.Add(series54);
+			this.chrt_StudentSubjects.Series.Add(series55);
 			this.chrt_StudentSubjects.Size = new System.Drawing.Size(330, 136);
 			this.chrt_StudentSubjects.TabIndex = 2;
 			this.chrt_StudentSubjects.Text = "chart1";
@@ -822,17 +790,17 @@
 			// grph_teacherCourseOverviewData
 			// 
 			this.grph_teacherCourseOverviewData.BackColor = System.Drawing.Color.Transparent;
-			chartArea6.Name = "ChartArea1";
-			this.grph_teacherCourseOverviewData.ChartAreas.Add(chartArea6);
-			legend6.Name = "Legend1";
-			this.grph_teacherCourseOverviewData.Legends.Add(legend6);
+			chartArea42.Name = "ChartArea1";
+			this.grph_teacherCourseOverviewData.ChartAreas.Add(chartArea42);
+			legend42.Name = "Legend1";
+			this.grph_teacherCourseOverviewData.Legends.Add(legend42);
 			this.grph_teacherCourseOverviewData.Location = new System.Drawing.Point(0, 108);
 			this.grph_teacherCourseOverviewData.Name = "grph_teacherCourseOverviewData";
 			this.grph_teacherCourseOverviewData.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Bright;
-			series8.ChartArea = "ChartArea1";
-			series8.Legend = "Legend1";
-			series8.Name = "Series1";
-			this.grph_teacherCourseOverviewData.Series.Add(series8);
+			series56.ChartArea = "ChartArea1";
+			series56.Legend = "Legend1";
+			series56.Name = "Series1";
+			this.grph_teacherCourseOverviewData.Series.Add(series56);
 			this.grph_teacherCourseOverviewData.Size = new System.Drawing.Size(277, 300);
 			this.grph_teacherCourseOverviewData.TabIndex = 1;
 			this.grph_teacherCourseOverviewData.Text = "chart1";
@@ -1192,10 +1160,43 @@
 			this.iTalk_HeaderLabel1.TabIndex = 0;
 			this.iTalk_HeaderLabel1.Text = "Welcome";
 			// 
-			// tmr_pssword
+			// lbl_Title
 			// 
-			this.tmr_pssword.Interval = 1500;
-			this.tmr_pssword.Tick += new System.EventHandler(this.tmr_pssword_Tick);
+			this.lbl_Title.AutoSize = true;
+			this.lbl_Title.BackColor = System.Drawing.Color.Transparent;
+			this.lbl_Title.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lbl_Title.ForeColor = System.Drawing.Color.White;
+			this.lbl_Title.Location = new System.Drawing.Point(24, 3);
+			this.lbl_Title.Name = "lbl_Title";
+			this.lbl_Title.Size = new System.Drawing.Size(318, 32);
+			this.lbl_Title.TabIndex = 0;
+			this.lbl_Title.Text = "System Master Vulnerability";
+			// 
+			// btn_min
+			// 
+			this.btn_min.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btn_min.BackColor = System.Drawing.Color.White;
+			this.btn_min.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(49)))));
+			this.btn_min.Font = new System.Drawing.Font("Marlett", 12F);
+			this.btn_min.Location = new System.Drawing.Point(492, 12);
+			this.btn_min.Name = "btn_min";
+			this.btn_min.Size = new System.Drawing.Size(18, 18);
+			this.btn_min.TabIndex = 0;
+			this.btn_min.Text = "flatMini1";
+			this.btn_min.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+			// 
+			// btn_close
+			// 
+			this.btn_close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btn_close.BackColor = System.Drawing.Color.White;
+			this.btn_close.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+			this.btn_close.Font = new System.Drawing.Font("Marlett", 10F);
+			this.btn_close.Location = new System.Drawing.Point(510, 12);
+			this.btn_close.Name = "btn_close";
+			this.btn_close.Size = new System.Drawing.Size(18, 18);
+			this.btn_close.TabIndex = 0;
+			this.btn_close.Text = "flatClose1";
+			this.btn_close.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
 			// 
 			// Screen
 			// 
@@ -1247,7 +1248,7 @@
 		private FlatUI.FlatClose btn_close;
 		private FlatUI.FlatLabel lbl_Title;
 		private iTalk.iTalk_LinkLabel link_register;
-		private FlatUI.FlatButton flatButton1;
+		private FlatUI.FlatButton btn_logIn;
 		private FlatUI.FlatLabel flatLabel3;
 		private FlatUI.FlatLabel flatLabel2;
 		private FlatUI.FlatLabel flatLabel1;

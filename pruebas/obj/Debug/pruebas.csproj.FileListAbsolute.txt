@@ -67,3 +67,5 @@ C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\BusinessEntities.dll
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\BusinessLogic.pdb
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\BusinessEntities.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\DataAccessLayer.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\pruebas\bin\Debug\DataAccessLayer.pdb

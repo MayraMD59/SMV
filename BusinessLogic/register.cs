@@ -8,48 +8,40 @@ using System.Windows.Forms;
 
 namespace BusinessLogic
 	{
-	public class register
+
+	public static class register
 		{
-		public static bool selec=false;
-
-
-		public static void BLLRegister(string username, string realname, string lastName, string code, string psw, string email)
+		public static void BLLRegisterUser(string username, string realname, string lastName, string code, string psw, string email)
 			{
-			string check= username;
-			string check2= realname;
-			string check3 = lastName;
-			string check4 = code;
-			string check5 = psw;
-			string check6 = email;
 
 			#region searchForExistingUser
-			if (!BusinessEntities.globalLists.registeredUsernameList.Contains(check))
+			if (!BusinessEntities.globalLists.registeredUsernameList.Contains(username))
 				{
-				selec = true;
-				DALRegister(check);
+				DataAccessLayer.Create.createSuccess = true;
+				DataAccessLayer.Create.DALCreate(username, realname, lastName, code, psw, email);
+				registrationDone();
 				}
 			else
 				{
-				selec = false;
-				DALRegister(check);
+				DataAccessLayer.Create.createSuccess = false;
+				DataAccessLayer.Create.DALCreate(username,realname,lastName,code,psw,email);
+				registrationDone();
 				}
 			#endregion
 			}
-
-
-		public static void DALRegister(string x)
+		public static bool registrationDone()
 			{
-			if (selec)
-				{
-				BusinessEntities.globalLists.accountList.Add(new BusinessEntities.entity_user(x));
-				BusinessEntities.globalLists.registeredUsernameList.Add(x);
-				MessageBox.Show("El usuario ha sido creado");
-				}
-			else
-				{
-				MessageBox.Show("El usuario ya existe");
-				}
+			bool x = DataAccessLayer.Create.createSuccess;
+			return x;
 			}
-
 		}
+
+	public static class logOn
+		{
+		public static void BLLLogonUser(string username, string psw)
+			{
+
+			}
+		}
+
 	}

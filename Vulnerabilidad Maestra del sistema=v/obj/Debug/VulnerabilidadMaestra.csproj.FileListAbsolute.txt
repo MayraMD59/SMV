@@ -17,3 +17,5 @@ C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilid
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.exe
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\obj\Debug\VulnerabilidadMaestra.pdb
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\DataAccessLayer.dll
+C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\Vulnerabilidad Maestra del sistema=v\bin\Debug\DataAccessLayer.pdb
