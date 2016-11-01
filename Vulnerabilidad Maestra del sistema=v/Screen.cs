@@ -43,9 +43,9 @@ namespace VulnerabilidadMaestra
 				string rawPswrd = txtbox_regPsswrd.Text;
 				string rawEmail = txtbox_regEmail.Text;
 
-				BusinessLogic.register.BLLRegisterUser(rawUser,rawName,rawLastName,rawCode,rawPswrd,rawEmail);
+				BusinessLogic.Functions.register.BLLRegisterUser(rawUser,rawName,rawLastName,rawCode,rawPswrd,rawEmail);
 
-				if (BusinessLogic.register.registrationDone())
+				if (BusinessLogic.Functions.register.processCompleteChecker())
 					{//Clean Textbox
 					txtbox_regUsername.Text = null;
 					txtbox_regName.Text = null;
@@ -123,19 +123,24 @@ namespace VulnerabilidadMaestra
 			{
 			if (logOnFormEmptyField())
 				{
-				BusinessLogic.logOn.BLLLogonUser(txtbox_Usrnm.Text, txtbox_psswrd.Text);
-				if (BusinessLogic.register.registrationDone())
+				BusinessLogic.Functions.logOn.BLLLogonUser(txtbox_Usrnm.Text, txtbox_psswrd.Text);
+				if (BusinessLogic.Functions.register.processCompleteChecker())
 					{
 					txtbox_Usrnm.Text = null;
 					txtbox_psswrd.Text = null;
 					}
 				}
+			else
+				{
+				MessageBox.Show("Rellene los campos vacios", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				}
 			}
 
 		private bool logOnFormEmptyField()
 			{
-			if (txtbox_Usrnm.Text.Length==0 && txtbox_psswrd.Text.Length==0)
+			if (txtbox_Usrnm.Text.Length==0 || txtbox_psswrd.Text.Length==0)
 				{
+
 				return false;
 				}
 			else
