@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace VulnerabilidadMaestra
 	{
@@ -16,8 +17,22 @@ namespace VulnerabilidadMaestra
 			{
 			InitializeComponent();
 			}
-		public static int sessionGlobalIndex;
+		public const int WM_NCLBUTTONDOWN = 0xA1;
+		public const int HT_CAPTION = 0x2;
 
+		[DllImportAttribute("user32.dll")]
+		public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+		[DllImportAttribute("user32.dll")]
+		public static extern bool ReleaseCapture();
+
+		private void pnl_Header_MouseMove(object sender, MouseEventArgs e)
+			{
+			if (e.Button == MouseButtons.Left)
+				{
+				ReleaseCapture();
+				SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+				}
+			}
 		private void llb_register_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
 			{
 			tab_Control.SelectedTab = tab_SignIn;
@@ -25,6 +40,13 @@ namespace VulnerabilidadMaestra
 			}
 		private void btn_registerCancel_Click(object sender, EventArgs e)
 			{
+			txtbox_regConfPsw.Text = null;
+			txtbox_regEmail.Text = null;
+			txtbox_regLastNames.Text= null;
+			txtbox_regName.Text = null;
+			txtbox_regPsswrd.Text = null;
+			txtbox_regTeacherCode.Text = null;
+			txtbox_regUsername.Text = null;
 
 			tab_Control.SelectedTab = tab_Login;
 			tmr_pssword.Enabled = false;
@@ -45,7 +67,7 @@ namespace VulnerabilidadMaestra
 
 				BusinessLogic.Functions.register.BLLRegisterUser(rawUser,rawName,rawLastName,rawCode,rawPswrd,rawEmail);
 
-				if (BusinessLogic.Functions.register.processCompleteChecker())
+				if (BusinessLogic.Functions.register.registerCompleteChecker())
 					{//Clean Textbox
 					txtbox_regUsername.Text = null;
 					txtbox_regName.Text = null;
@@ -119,23 +141,32 @@ namespace VulnerabilidadMaestra
 			}
 		#endregion
 
+		#region LogInButton
 		private void btn_logIn_Click(object sender, EventArgs e)
 			{
 			if (logOnFormEmptyField())
 				{
 				BusinessLogic.Functions.logOn.BLLLogonUser(txtbox_Usrnm.Text, txtbox_psswrd.Text);
-				if (BusinessLogic.Functions.register.processCompleteChecker())
-					{
-					txtbox_Usrnm.Text = null;
-					txtbox_psswrd.Text = null;
-					}
 				}
 			else
 				{
 				MessageBox.Show("Rellene los campos vacios", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 				}
+			if (BusinessLogic.Functions.logOn.logged)
+				{
+				txtbox_Usrnm.Text = null;
+				txtbox_psswrd.Text = null;
+				tab_Control.SelectedTab = tab_StudentMain;
+				}
+			else if (BusinessLogic.Functions.logOn.loggedAsTeacher)
+				{
+				txtbox_Usrnm.Text = null;
+				txtbox_psswrd.Text = null;
+				tab_Control.SelectedTab = tab_TeacherMenu;
+				}
 			}
-
+		#endregion
+		#region emptyTextBoxCheck
 		private bool logOnFormEmptyField()
 			{
 			if (txtbox_Usrnm.Text.Length==0 || txtbox_psswrd.Text.Length==0)
@@ -148,5 +179,10 @@ namespace VulnerabilidadMaestra
 				return true;
 				}
 			}
+
+
+		#endregion
+
+
 		}
 	}

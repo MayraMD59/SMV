@@ -8,8 +8,7 @@ namespace BusinessLogic.Functions
 	{
 	public static class register
 		{
-		public static bool logged;
-		public static bool loggedAsTeacher;
+
 		#region checkIfUserExist
 		public static void BLLRegisterUser(string username, string realname, string lastName, string code, string psw, string email)
 			{
@@ -19,18 +18,18 @@ namespace BusinessLogic.Functions
 				{
 				DataAccessLayer.CRUD.Create.createSuccess = true;
 				DataAccessLayer.CRUD.Create.DALCreate(username, realname, lastName, code, psw, email);
-				processCompleteChecker();
+				registerCompleteChecker();
 				}
 			else
 				{
 				DataAccessLayer.CRUD.Create.createSuccess = false;
 				DataAccessLayer.CRUD.Create.DALCreate(username, realname, lastName, code, psw, email);
-				processCompleteChecker();
+				registerCompleteChecker();
 				}
 			}
 		#endregion
 		#region completeCheck
-		public static bool processCompleteChecker()
+		public static bool registerCompleteChecker()
 		{
 		bool x = DataAccessLayer.CRUD.Create.createSuccess;
 		return x;

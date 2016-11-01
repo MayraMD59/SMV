@@ -10,9 +10,12 @@ namespace BusinessLogic.Functions
 	{
 	public static class logOn
 		{
+		public static bool logged;
+		public static bool loggedAsTeacher;
 		static BusinessEntities.user userAccess = new BusinessEntities.user();
 		public static bool BLLLogonUser(string username, string psw)
 			{
+			#region checkIfExistInDataBase
 			userAccess.username = username;
 			userAccess.password = psw;
 
@@ -27,7 +30,8 @@ namespace BusinessLogic.Functions
 				pswss.username = ""; 
 				pswss.password = "";
 				}
-
+			#endregion
+			#region loginConfirmation
 			try
 				{// !("Login info does'n match with any object") true or false?
 				if (!((pswss.username == null || pswss.password == null) && (userAccess.username != pswss.username || userAccess.password != pswss.password)))
@@ -35,11 +39,11 @@ namespace BusinessLogic.Functions
 					#region accessedAsUser?
 					if (pswss.code != null)
 						{
-						register.logged = true;
+						logged = true;
 						}
 					else
 						{
-						register.loggedAsTeacher = true;
+						loggedAsTeacher = true;
 						}
 					#endregion
 					MessageBox.Show("Bienvenido al sistema" + pswss.username);
@@ -52,9 +56,10 @@ namespace BusinessLogic.Functions
 				}
 			catch (Exception)
 				{
+				MessageBox.Show("Usuario o Contraseña no Valido(s)", "Error de datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
 				return false;
-				
 				}
+			#endregion
 			}
 		}
 

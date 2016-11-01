@@ -16,13 +16,6 @@ namespace DataAccessLayer.CRUD
 			{
 			if (createSuccess)
 				{
-				//BusinessEntities.globalLists.userDataArray[0,registeredUsers] = u;
-				//BusinessEntities.globalLists.userDataArray[1, registeredUsers] = n;
-				//BusinessEntities.globalLists.userDataArray[2, registeredUsers] = ln;
-				//BusinessEntities.globalLists.userDataArray[3, registeredUsers] = c;
-				//BusinessEntities.globalLists.userDataArray[4, registeredUsers] = p;
-				//BusinessEntities.globalLists.userDataArray[5, registeredUsers] = e;
-				//registeredUsers++;
 				Read.globalLists.accountList.Add(new BusinessEntities.user(u, n, ln, c, p, e));
 				Read.globalLists.registeredUsernameList.Add(u);
 				MessageBox.Show("El usuario ha sido creado");
