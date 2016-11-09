@@ -57,10 +57,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DB\course.cs" />
-    <Compile Include="DB\globalLists.cs" />
+    <Compile Include="DB_CSharp\course.cs" />
+    <Compile Include="DB_CSharp\globalLists.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DB\user.cs" />
+    <Compile Include="DB_CSharp\user.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

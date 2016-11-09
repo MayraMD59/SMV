@@ -16,7 +16,7 @@ namespace Vulnerabilidad_Maestra_del_sistema_v
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VulnerabilidadMaestra.Screen());
-        }
+			Application.Run(new VulnerabilidadMaestra.Screen());
+			}
     }
 }

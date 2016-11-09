@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,8 +14,7 @@ namespace BusinessEntities
 		public List<string> registeredUsernameList = new List<string>();
 		public List<string> codes = new List<string>() { "ABC123", "123r43" };
 
-		public string[,] userDataArray = new string[6, 20];
-
+		//public string[,] userDataArray = new string[6, 20];
 		//public static int[]
 		}
 

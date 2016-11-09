@@ -26,4 +26,3 @@ C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEnti
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\MySql.Data.Entity.EF6.dll
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\EntityFramework.xml
 C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\ZoPc\Documents\Visual Studio 2015\Projects\GitHubRepos\SMV\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
