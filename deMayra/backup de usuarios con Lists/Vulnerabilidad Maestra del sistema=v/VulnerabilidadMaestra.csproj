@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52ABA702-4AD6-41B1-A1FB-5D819A7FF430}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VulnerabilidadMaestra</RootNamespace>
+    <AssemblyName>VulnerabilidadMaestra</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Vulnerabilidad_Maestra_del_sistema_v.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.9\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bin\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="bin\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="bin\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen.Designer.cs">
+      <DependentUpon>Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatAlertBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatClose.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatColorPalette.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatColors.cs" />
+    <Compile Include="Themes\FlatUI\FlatComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatMax.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatMini.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatNumeric.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatStatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatStickyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatToggle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FlatTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\FormSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Themes\FlatUI\Helpers.cs" />
+    <Compile Include="Themes\Italk\italk_theme_-_c#.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Themes\FlatUI\MouseState.cs" />
+    <Compile Include="Themes\Italk\listItemCourse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Themes\Italk\listItemCourse.Designer.cs">
+      <DependentUpon>listItemCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Themes\ScrollList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Themes\ScrollList.Designer.cs">
+      <DependentUpon>ScrollList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bin\obj\Debug\VulnerabilidadMaestra.Properties.Resources.resources" />
+    <EmbeddedResource Include="bin\obj\Debug\VulnerabilidadMaestra.Screen.resources" />
+    <EmbeddedResource Include="Screen.resx">
+      <DependentUpon>Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Themes\Italk\listItemCourse.resx">
+      <DependentUpon>listItemCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Themes\ScrollList.resx">
+      <DependentUpon>ScrollList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\Vulnerabilidad Maestra del sistema=v.vshost.exe.config" />
+    <None Include="bin\Debug\Vulnerabilidad Maestra del sistema=v.vshost.exe.manifest" />
+    <None Include="bin\Debug\VulnerabilidadMaestra.vshost.exe.config" />
+    <None Include="bin\Debug\VulnerabilidadMaestra.vshost.exe.manifest" />
+    <None Include="bin\obj\Debug\build.force" />
+    <None Include="bin\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="bin\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="bin\obj\Debug\Vulnerabilidad Maestra del sistema=v.csproj.GenerateResource.Cache" />
+    <None Include="bin\obj\Debug\Vulnerabilidad Maestra del sistema=v.csprojResolveAssemblyReference.cache" />
+    <None Include="bin\obj\Debug\VulnerabilidadMaestra.csproj.GenerateResource.Cache" />
+    <None Include="bin\obj\Debug\VulnerabilidadMaestra.csprojResolveAssemblyReference.cache" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Vulnerabilidad Maestra del sistema=v.vshost.exe" />
+    <Content Include="bin\Debug\VulnerabilidadMaestra.vshost.exe" />
+    <Content Include="bin\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="bin\obj\Debug\Vulnerabilidad Maestra del sistema=v.csproj.FileListAbsolute.txt" />
+    <Content Include="bin\obj\Debug\VulnerabilidadMaestra.csproj.FileListAbsolute.txt" />
+    <Content Include="Themes\Flat\Flat.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
+      <Project>{fdc7cdd6-0cd5-41cd-b4ca-f8d95f7a542a}</Project>
+      <Name>BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+      <Project>{fe1b061a-f0ae-45be-9c19-7b31cfdf4cc9}</Project>
+      <Name>BusinessLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

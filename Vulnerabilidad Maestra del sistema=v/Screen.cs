@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using MySql.Data.MySqlClient;
 
 namespace VulnerabilidadMaestra
 	{
@@ -16,7 +17,26 @@ namespace VulnerabilidadMaestra
 		public Screen()
 			{
 			InitializeComponent();
+			connectToDatabase();
 			}
+		#region connectToLocalDatabase
+		MySqlConnection connection;
+		string connectionString = "server=localhost; uid=root;" + "pwd=Midios7777; database=SMV;";
+		private void connectToDatabase()
+			{
+			try
+				{
+				connection = new MySqlConnection();
+				connection.ConnectionString = connectionString;
+				connection.Open();
+				}
+			catch (MySql.Data.MySqlClient.MySqlException ex)
+				{
+				MessageBox.Show(ex.Message);
+				}
+			}
+		#endregion
+		#region BorderDraggable
 		public const int WM_NCLBUTTONDOWN = 0xA1;
 		public const int HT_CAPTION = 0x2;
 
@@ -24,6 +44,8 @@ namespace VulnerabilidadMaestra
 		public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 		[DllImportAttribute("user32.dll")]
 		public static extern bool ReleaseCapture();
+
+		#endregion
 
 		private void pnl_Header_MouseMove(object sender, MouseEventArgs e)
 			{
@@ -195,32 +217,61 @@ namespace VulnerabilidadMaestra
 
 		#endregion
 
+
 		#region TabHelper
-		public static int tIndex;
 
-		public void tabHelperHandler(object sender, EventArgs e)
+		private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
 			{
-			try
+			switch (listBox1.SelectedIndex)
 				{
-				tab_Control.SelectedIndex = tIndex;
-				}
-			catch (Exception)
-				{
+				case 0:
+					tab_Control.SelectedIndex = listBox1.SelectedIndex;
+					listBox1.Parent = tab1Login;
+					break;
+				case 1:
+					tab_Control.SelectedIndex = listBox1.SelectedIndex;
+					listBox1.Parent = tab2CreateAcc;
+					break;
+				case 2:
+					tab_Control.SelectedIndex = listBox1.SelectedIndex;
+					listBox1.Parent = tab3AsStudentMain;
+					break;
+				case 3:
+					tab_Control.SelectedIndex = listBox1.SelectedIndex;
+					listBox1.Parent = tab3AsTeacherMain;
+					break;
+				case 4:
+					tab_Control.SelectedIndex = listBox1.SelectedIndex;
+					listBox1.Parent = tab4AsStudentCourseOverview;
+					break;
+				case 5:
+					tab_Control.SelectedIndex = listBox1.SelectedIndex;
+					listBox1.Parent = tab4AsTeacherCourseOverview;
+					break;
+				case 6:
+					tab_Control.SelectedIndex = listBox1.SelectedIndex;
+					listBox1.Parent = tab5AsTeacherCreateCourse;
+					break;
+				case 7:
+					tab_Control.SelectedIndex = listBox1.SelectedIndex;
+					listBox1.Parent = tab6AsTeacherCourseList;
+					break;
+				case 8:
+					tab_Control.SelectedIndex = listBox1.SelectedIndex;
+					break;
+				case 9:
+					tab_Control.SelectedIndex = listBox1.SelectedIndex;
+					break;
+				default:
+					break;
 				}
 			}
 
-		private void flatButton1_Click(object sender, EventArgs e)
-			{
-			try
-				{
-				Application.Run(new tabHelper());
-				}
-			catch (Exception)
-				{
-				}
-			#endregion
-			//this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
-			}
+		#endregion
+
+		//this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
+
 
 		}
 	}
+

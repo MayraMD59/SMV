@@ -29,10 +29,10 @@
 		private void InitializeComponent()
 			{
 			this.components = new System.ComponentModel.Container();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
 			this.pnl_Header = new System.Windows.Forms.Panel();
 			this.lbl_Title = new FlatUI.FlatLabel();
 			this.btn_min = new FlatUI.FlatMini();
@@ -40,7 +40,7 @@
 			this.pnl_Body = new System.Windows.Forms.Panel();
 			this.tab_Control = new FlatUI.FlatTabControl();
 			this.tab1Login = new System.Windows.Forms.TabPage();
-			this.flatButton1 = new FlatUI.FlatButton();
+			this.listBox1 = new System.Windows.Forms.ListBox();
 			this.link_register = new iTalk.iTalk_LinkLabel();
 			this.btn_logIn = new FlatUI.FlatButton();
 			this.flatLabel3 = new FlatUI.FlatLabel();
@@ -221,7 +221,7 @@
 			// tab1Login
 			// 
 			this.tab1Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(70)))), ((int)(((byte)(73)))));
-			this.tab1Login.Controls.Add(this.flatButton1);
+			this.tab1Login.Controls.Add(this.listBox1);
 			this.tab1Login.Controls.Add(this.link_register);
 			this.tab1Login.Controls.Add(this.btn_logIn);
 			this.tab1Login.Controls.Add(this.flatLabel3);
@@ -236,21 +236,27 @@
 			this.tab1Login.TabIndex = 0;
 			this.tab1Login.Text = "tabPage3";
 			// 
-			// flatButton1
+			// listBox1
 			// 
-			this.flatButton1.BackColor = System.Drawing.Color.Transparent;
-			this.flatButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
-			this.flatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.flatButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
-			this.flatButton1.Location = new System.Drawing.Point(366, 338);
-			this.flatButton1.Name = "flatButton1";
-			this.flatButton1.Rounded = false;
-			this.flatButton1.Size = new System.Drawing.Size(106, 32);
-			this.flatButton1.TabIndex = 5;
-			this.flatButton1.TabStop = false;
-			this.flatButton1.Text = "TabHelper";
-			this.flatButton1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-			this.flatButton1.Click += new System.EventHandler(this.flatButton1_Click);
+			this.listBox1.BackColor = System.Drawing.Color.Teal;
+			this.listBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
+			this.listBox1.FormattingEnabled = true;
+			this.listBox1.ItemHeight = 17;
+			this.listBox1.Items.AddRange(new object[] {
+            "IniciioSesion",
+            "Registro",
+            "VPEstudiante",
+            "VMaestro",
+            "CEstudiante",
+            "CMaestro",
+            "CrearCursoMaestro",
+            "ListaDeCursosMaestro"});
+			this.listBox1.Location = new System.Drawing.Point(-1, 284);
+			this.listBox1.Name = "listBox1";
+			this.listBox1.Size = new System.Drawing.Size(215, 157);
+			this.listBox1.TabIndex = 6;
+			this.listBox1.TabStop = false;
+			this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
 			// 
 			// link_register
 			// 
@@ -279,8 +285,7 @@
 			this.btn_logIn.Name = "btn_logIn";
 			this.btn_logIn.Rounded = false;
 			this.btn_logIn.Size = new System.Drawing.Size(148, 32);
-			this.btn_logIn.TabIndex = 3;
-			this.btn_logIn.TabStop = false;
+			this.btn_logIn.TabIndex = 2;
 			this.btn_logIn.Text = "Iniciar sesion";
 			this.btn_logIn.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
 			this.btn_logIn.Click += new System.EventHandler(this.btn_logIn_Click);
@@ -899,21 +904,21 @@
 			this.chrt_StudentSubjects.BackColor = System.Drawing.Color.Transparent;
 			this.chrt_StudentSubjects.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(168)))), ((int)(((byte)(109)))));
 			this.chrt_StudentSubjects.BorderSkin.PageColor = System.Drawing.Color.Turquoise;
-			chartArea4.Name = "ChartArea1";
-			this.chrt_StudentSubjects.ChartAreas.Add(chartArea4);
-			legend4.Name = "Legend1";
-			this.chrt_StudentSubjects.Legends.Add(legend4);
+			chartArea2.Name = "ChartArea1";
+			this.chrt_StudentSubjects.ChartAreas.Add(chartArea2);
+			legend2.Name = "Legend1";
+			this.chrt_StudentSubjects.Legends.Add(legend2);
 			this.chrt_StudentSubjects.Location = new System.Drawing.Point(8, 91);
 			this.chrt_StudentSubjects.Name = "chrt_StudentSubjects";
 			this.chrt_StudentSubjects.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
-			series7.ChartArea = "ChartArea1";
-			series7.Legend = "Legend1";
-			series7.Name = "Parcial 1";
-			series8.ChartArea = "ChartArea1";
-			series8.Legend = "Legend1";
-			series8.Name = "Parcial 2";
-			this.chrt_StudentSubjects.Series.Add(series7);
-			this.chrt_StudentSubjects.Series.Add(series8);
+			series3.ChartArea = "ChartArea1";
+			series3.Legend = "Legend1";
+			series3.Name = "Parcial 1";
+			series4.ChartArea = "ChartArea1";
+			series4.Legend = "Legend1";
+			series4.Name = "Parcial 2";
+			this.chrt_StudentSubjects.Series.Add(series3);
+			this.chrt_StudentSubjects.Series.Add(series4);
 			this.chrt_StudentSubjects.Size = new System.Drawing.Size(330, 136);
 			this.chrt_StudentSubjects.TabIndex = 2;
 			this.chrt_StudentSubjects.Text = "chart1";
@@ -1440,10 +1445,10 @@
         private iTalk.iTalk_LinkLabel lbl_tab3_course3Name;
         private iTalk.iTalk_LinkLabel lbl_tab3_course2Name;
         private iTalk.iTalk_LinkLabel lbl_tab3_course1Name;
-		private FlatUI.FlatButton flatButton1;
 		public System.Windows.Forms.Panel pnl_Body;
 		public FlatUI.FlatTabControl tab_Control;
 		private System.Windows.Forms.TabPage tab1Login;
+		private System.Windows.Forms.ListBox listBox1;
 		//public iTalk.iTalk_LinkLabel lbl_SessionID;
 		}
 	}

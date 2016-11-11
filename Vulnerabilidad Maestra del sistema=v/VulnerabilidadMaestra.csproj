@@ -78,12 +78,6 @@
     <Compile Include="Screen.Designer.cs">
       <DependentUpon>Screen.cs</DependentUpon>
     </Compile>
-    <Compile Include="tabHelper.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="tabHelper.Designer.cs">
-      <DependentUpon>tabHelper.cs</DependentUpon>
-    </Compile>
     <Compile Include="Themes\FlatUI\FlatAlertBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -186,9 +180,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="tabHelper.resx">
-      <DependentUpon>tabHelper.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Themes\Italk\listItemCourse.resx">
       <DependentUpon>listItemCourse.cs</DependentUpon>
     </EmbeddedResource>
